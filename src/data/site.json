@@ -100,7 +100,7 @@
       "timeZone": "Atlantic/Azores",
       "title": "Changement de fuseau horaire",
       "description": [
-        "Passage au fuseau horaire d'Europe centrale, heure avancée (+ 5 heures).",
+        "Passage au fuseau horaire d'Europe centrale, heure avancée (+ 6 heures).",
         "Pendant toute la durée de mon voyage, je resterai dans ce fuseau horaire qui couvre tous les pays d'Europe centrale."
       ],
       "location": "Océan Atlantique"
@@ -973,7 +973,7 @@
       "timeZone": "Atlantic/Azores",
       "title": "Changement de fuseau horaire",
       "description": [
-        "Passage au fuseau horaire de l'Est, heure avancée (- 5 heures)."
+        "Passage au fuseau horaire de l'Est, heure avancée (- 6 heures)."
       ],
       "location": "Océan Atlantique"
     },
