@@ -1,0 +1,43 @@
+{
+  "name": "marcoeneurope",
+  "description": "This application make all data available as a GraphQL service and throw APIs powered by GraphQL.",
+  "contributors": [
+    {
+      "name": "Marc-Olivier Fortin",
+      "email": "info@marcolivierfortin.com"
+    }
+  ],
+  "version": "0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev -p 9999",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": "18.17.1"
+  },
+  "dependencies": {
+    "circle-flags": "github:HatScripts/circle-flags",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "http-status-codes": "^2.2.0",
+    "next": "^13.4.19",
+    "node": "^18.17.1",
+    "react-circle-flags": "^0.0.19",
+    "sharp": "^0.32.5",
+    "striptags": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19",
+    "sass": "^1.66.1",
+    "typescript": "^5.2.2"
+  }
+}

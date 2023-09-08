@@ -1,0 +1,11 @@
+# EditorConfig is awesome: https://EditorConfig.org.
+
+# Top-most EditorConfig file.
+root = true
+
+# For all files.
+[*]
+# Set the maximum line length to 125 characters.
+max_line_length = 80
+# Add a new line a the end of each file.
+insert_final_newline = true

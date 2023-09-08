@@ -1,0 +1,626 @@
+[
+  {
+    "code": 1000,
+    "day": {
+      "en": "Sunny",
+      "fr": "Ensoleillé",
+      "text": "Il fait %degree °C à %city avec un ciel ensoleillé"
+    },
+    "night": {
+      "en": "Clear",
+      "fr": "Clair",
+      "text": "Il fait %degree °C à %city avec un ciel clair"
+    }
+  },
+  {
+    "code": 1003,
+    "day": {
+      "en": "Partly Cloudy",
+      "fr": "Partiellement nuageux",
+      "text": "Il fait %degree °C à %city avec un ciel partiellement nuageux"
+    },
+    "night": {
+      "en": "Partly Cloudy",
+      "fr": "Partiellement nuageux",
+      "text": "Il fait %degree °C à %city avec un ciel partiellement nuageux"
+    }
+  },
+  {
+    "code": 1006,
+    "day": {
+      "en": "Cloudy",
+      "fr": "Nuageux",
+      "text": "Il fait %degree °C à %city avec un ciel nuageux"
+    },
+    "night": {
+      "en": "Cloudy",
+      "fr": "Nuageux",
+      "text": "Il fait %degree °C à %city avec un ciel nuageux"
+    }
+  },
+  {
+    "code": 1009,
+    "day": {
+      "en": "Overcast",
+      "fr": "Couvert",
+      "text": "Il fait %degree °C à %city avec un ciel couvert"
+    },
+    "night": {
+      "en": "Overcast",
+      "fr": "Couvert",
+      "text": "Il fait %degree °C à %city avec un ciel couvert"
+    }
+  },
+  {
+    "code": 1030,
+    "day": {
+      "en": "Mist",
+      "fr": "Brume",
+      "text": "Il fait %degree °C à %city avec de la brume"
+    },
+    "night": {
+      "en": "Mist",
+      "fr": "Brume",
+      "text": "Il fait %degree °C à %city avec de la brume"
+    }
+  },
+  {
+    "code": 1063,
+    "day": {
+      "en": "Patchy rain nearby",
+      "fr": "Pluie éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la pluie à proximité"
+    },
+    "night": {
+      "en": "Patchy rain nearby",
+      "fr": "Pluie éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la pluie à proximité"
+    }
+  },
+  {
+    "code": 1066,
+    "day": {
+      "en": "Patchy snow nearby",
+      "fr": "Neige éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la neige à proximité"
+    },
+    "night": {
+      "en": "Patchy snow nearby",
+      "fr": "Neige éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la neige à proximité"
+    }
+  },
+  {
+    "code": 1069,
+    "day": {
+      "en": "Patchy sleet nearby",
+      "fr": "Grésil épars à proximité",
+      "text": "Il fait %degree °C à %city avec du grésil à proximité"
+    },
+    "night": {
+      "en": "Patchy sleet nearby",
+      "fr": "Grésil épars à proximité",
+      "text": "Il fait %degree °C à %city avec du grésil à proximité"
+    }
+  },
+  {
+    "code": 1072,
+    "day": {
+      "en": "Patchy freezing drizzle nearby",
+      "fr": "Bruine verglaçante éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la bruine verglaçante à proximité"
+    },
+    "night": {
+      "en": "Patchy freezing drizzle nearby",
+      "fr": "Bruine verglaçante éparse à proximité",
+      "text": "Il fait %degree °C à %city avec de la bruine verglaçante à proximité"
+    }
+  },
+  {
+    "code": 1087,
+    "day": {
+      "en": "Thundery outbreaks in nearby",
+      "fr": "Foyers orageux à proximité",
+      "text": "Il fait %degree °C à %city avec des foyers orageux à proximité"
+    },
+    "night": {
+      "en": "Thundery outbreaks in nearby",
+      "fr": "Foyers orageux à proximité",
+      "text": "Il fait %degree °C à %city avec des foyers orageux à proximité"
+    }
+  },
+  {
+    "code": 1114,
+    "day": {
+      "en": "Blowing snow",
+      "fr": "Rafales de neige",
+      "text": "Il fait %degree °C à %city avec des rafales de neige"
+    },
+    "night": {
+      "en": "Blowing snow",
+      "fr": "Rafales de neige",
+      "text": "Il fait %degree °C à %city avec des rafales de neige"
+    }
+  },
+  {
+    "code": 1117,
+    "day": {
+      "en": "Blizzard",
+      "fr": "Blizzard",
+      "text": "Il fait %degree °C à %city avec du blizzard"
+    },
+    "night": {
+      "en": "Blizzard",
+      "fr": "Blizzard",
+      "text": "Il fait %degree °C à %city avec du blizzard"
+    }
+  },
+  {
+    "code": 1135,
+    "day": {
+      "en": "Fog",
+      "fr": "Brouillard",
+      "text": "Il fait %degree °C à %city avec du brouillard"
+    },
+    "night": {
+      "en": "Fog",
+      "fr": "Brouillard",
+      "text": "Il fait %degree °C à %city avec du brouillard"
+    }
+  },
+  {
+    "code": 1147,
+    "day": {
+      "en": "Freezing fog",
+      "fr": "Brouillard givrant",
+      "text": "Il fait %degree °C à %city avec du brouillard givrant"
+    },
+    "night": {
+      "en": "Freezing fog",
+      "fr": "Brouillard givrant",
+      "text": "Il fait %degree °C à %city avec du brouillard givrant"
+    }
+  },
+  {
+    "code": 1150,
+    "day": {
+      "en": "Patchy light drizzle",
+      "fr": "Bruine légère éparse",
+      "text": "Il fait %degree °C à %city avec de la bruine légère"
+    },
+    "night": {
+      "en": "Patchy light drizzle",
+      "fr": "Bruine légère éparse",
+      "text": "Il fait %degree °C à %city avec de la bruine légère"
+    }
+  },
+  {
+    "code": 1153,
+    "day": {
+      "en": "Light drizzle",
+      "fr": "Bruine légère",
+      "text": "Il fait %degree °C à %city avec de la bruine légère"
+    },
+    "night": {
+      "en": "Light drizzle",
+      "fr": "Bruine légère",
+      "text": "Il fait %degree °C à %city avec de la bruine légère"
+    }
+  },
+  {
+    "code": 1168,
+    "day": {
+      "en": "Freezing drizzle",
+      "fr": "Bruine verglaçante",
+      "text": "Il fait %degree °C à %city avec de la bruine verglaçante"
+    },
+    "night": {
+      "en": "Freezing drizzle",
+      "fr": "Bruine verglaçante",
+      "text": "Il fait %degree °C à %city avec de la bruine verglaçante"
+    }
+  },
+  {
+    "code": 1171,
+    "day": {
+      "en": "Heavy freezing drizzle",
+      "fr": "Forte bruine verglaçante",
+      "text": "Il fait %degree °C à %city avec de la forte bruine verglaçante"
+    },
+    "night": {
+      "en": "Heavy freezing drizzle",
+      "fr": "Forte bruine verglaçante",
+      "text": "Il fait %degree °C à %city avec de la forte bruine verglaçante"
+    }
+  },
+  {
+    "code": 1180,
+    "day": {
+      "en": "Patchy light rain",
+      "fr": "Pluie légère éparse",
+      "text": "Il fait %degree °C à %city avec de la pluie légère"
+    },
+    "night": {
+      "en": "Patchy light rain",
+      "fr": "Pluie légère éparse",
+      "text": "Il fait %degree °C à %city avec de la pluie légère"
+    }
+  },
+  {
+    "code": 1183,
+    "day": {
+      "en": "Light rain",
+      "fr": "Pluie légère",
+      "text": "Il fait %degree °C à %city avec de la pluie légère"
+    },
+    "night": {
+      "en": "Light rain",
+      "fr": "Pluie légère",
+      "text": "Il fait %degree °C à %city avec de la pluie légère"
+    }
+  },
+  {
+    "code": 1186,
+    "day": {
+      "en": "Moderate rain at times",
+      "fr": "Pluie modérée par moments",
+      "text": "Il fait %degree °C à %city avec de la pluie modérée par moments"
+    },
+    "night": {
+      "en": "Moderate rain at times",
+      "fr": "Pluie modérée par moments",
+      "text": "Il fait %degree °C à %city avec de la pluie modérée par moments"
+    }
+  },
+  {
+    "code": 1189,
+    "day": {
+      "en": "Moderate rain",
+      "fr": "Pluie modérée",
+      "text": "Il fait %degree °C à %city avec de la pluie modérée"
+    },
+    "night": {
+      "en": "Moderate rain",
+      "fr": "Pluie modérée",
+      "text": "Il fait %degree °C à %city avec de la pluie modérée"
+    }
+  },
+  {
+    "code": 1192,
+    "day": {
+      "en": "Heavy rain at times",
+      "fr": "Pluie forte par moments",
+      "text": "Il fait %degree °C à %city avec de la pluie forte par moments"
+    },
+    "night": {
+      "en": "Heavy rain at times",
+      "fr": "Pluie forte par moments",
+      "text": "Il fait %degree °C à %city avec de la pluie forte par moments"
+    }
+  },
+  {
+    "code": 1195,
+    "day": {
+      "en": "Heavy rain",
+      "fr": "Pluie forte",
+      "text": "Il fait %degree °C à %city avec de la pluie forte"
+    },
+    "night": {
+      "en": "Heavy rain",
+      "fr": "Pluie forte",
+      "text": "Il fait %degree °C à %city avec de la pluie forte"
+    }
+  },
+  {
+    "code": 1198,
+    "day": {
+      "en": "Light freezing rain",
+      "fr": "Pluie verglaçante légère",
+      "text": "Il fait %degree °C à %city avec de la pluie verglaçante légère"
+    },
+    "night": {
+      "en": "Light freezing rain",
+      "fr": "Pluie verglaçante légère",
+      "text": "Il fait %degree °C à %city avec de la pluie verglaçante légère"
+    }
+  },
+  {
+    "code": 1201,
+    "day": {
+      "en": "Moderate or heavy freezing rain",
+      "fr": "Pluie verglaçante modérée à forte",
+      "text": "Il fait %degree °C à %city avec de la pluie verglaçante modérée à forte"
+    },
+    "night": {
+      "en": "Moderate or heavy freezing rain",
+      "fr": "Pluie verglaçante modérée à forte",
+      "text": "Il fait %degree °C à %city avec de la pluie verglaçante modérée à forte"
+    }
+  },
+  {
+    "code": 1204,
+    "day": {
+      "en": "Light sleet",
+      "fr": "Léger grésil",
+      "text": "Il fait %degree °C à %city avec un léger grésil"
+    },
+    "night": {
+      "en": "Light sleet",
+      "fr": "Léger grésil",
+      "text": "Il fait %degree °C à %city avec un léger grésil"
+    }
+  },
+  {
+    "code": 1207,
+    "day": {
+      "en": "Moderate or heavy sleet",
+      "fr": "Grésil modéré à fort",
+      "text": "Il fait %degree °C à %city avec un grésil modéré à fort"
+    },
+    "night": {
+      "en": "Moderate or heavy sleet",
+      "fr": "Grésil modéré à fort",
+      "text": "Il fait %degree °C à %city avec un grésil modéré à fort"
+    }
+  },
+  {
+    "code": 1210,
+    "day": {
+      "en": "Patchy light snow",
+      "fr": "Neige légère éparse",
+      "text": "Il fait %degree °C à %city avec de la neige légère"
+    },
+    "night": {
+      "en": "Patchy light snow",
+      "fr": "Neige légère éparse",
+      "text": "Il fait %degree °C à %city avec de la neige légère"
+    }
+  },
+  {
+    "code": 1213,
+    "day": {
+      "en": "Light snow",
+      "fr": "Neige légère",
+      "text": "Il fait %degree °C à %city avec de la neige légère"
+    },
+    "night": {
+      "en": "Light snow",
+      "fr": "Neige légère",
+      "text": "Il fait %degree °C à %city avec de la neige légère"
+    }
+  },
+  {
+    "code": 1216,
+    "day": {
+      "en": "Patchy moderate snow",
+      "fr": "Neige modérée éparse",
+      "text": "Il fait %degree °C à %city avec de la neige modérée"
+    },
+    "night": {
+      "en": "Patchy moderate snow",
+      "fr": "Neige modérée éparse",
+      "text": "Il fait %degree °C à %city avec de la neige modérée"
+    }
+  },
+  {
+    "code": 1219,
+    "day": {
+      "en": "Moderate snow",
+      "fr": "Neige modérée",
+      "text": "Il fait %degree °C à %city avec de la neige modérée"
+    },
+    "night": {
+      "en": "Moderate snow",
+      "fr": "Neige modérée",
+      "text": "Il fait %degree °C à %city avec de la neige modérée"
+    }
+  },
+  {
+    "code": 1222,
+    "day": {
+      "en": "Patchy heavy snow",
+      "fr": "Neige forte éparse",
+      "text": "Il fait %degree °C à %city avec de la neige forte"
+    },
+    "night": {
+      "en": "Patchy heavy snow",
+      "fr": "Neige forte éparse",
+      "text": "Il fait %degree °C à %city avec de la neige forte"
+    }
+  },
+  {
+    "code": 1225,
+    "day": {
+      "en": "Heavy snow",
+      "fr": "Neige forte",
+      "text": "Il fait %degree °C à %city avec de la neige forte"
+    },
+    "night": {
+      "en": "Heavy snow",
+      "fr": "Neige forte",
+      "text": "Il fait %degree °C à %city avec de la neige forte"
+    }
+  },
+  {
+    "code": 1237,
+    "day": {
+      "en": "Ice pellets",
+      "fr": "Cristaux de glace",
+      "text": "Il fait %degree °C à %city avec des cristaux de glace"
+    },
+    "night": {
+      "en": "Ice pellets",
+      "fr": "Cristaux de glace",
+      "text": "Il fait %degree °C à %city avec des cristaux de glace"
+    }
+  },
+  {
+    "code": 1240,
+    "day": {
+      "en": "Light rain shower",
+      "fr": "Averse de pluie légère",
+      "text": "Il fait %degree °C à %city avec un averse de pluie légère"
+    },
+    "night": {
+      "en": "Light rain shower",
+      "fr": "Averse de pluie légère",
+      "text": "Il fait %degree °C à %city avec un averse de pluie légère"
+    }
+  },
+  {
+    "code": 1243,
+    "day": {
+      "en": "Moderate or heavy rain shower",
+      "fr": "Averse de pluie modérée",
+      "text": "Il fait %degree °C à %city avec un averse de pluie modérée"
+    },
+    "night": {
+      "en": "Moderate or heavy rain shower",
+      "fr": "Averse de pluie modérée",
+      "text": "Il fait %degree °C à %city avec un averse de pluie modérée"
+    }
+  },
+  {
+    "code": 1246,
+    "day": {
+      "en": "Torrential rain shower",
+      "fr": "Averses de pluie torrentielle",
+      "text": "Il fait %degree °C à %city avec des averses de pluie torrentielle"
+    },
+    "night": {
+      "en": "Torrential rain shower",
+      "fr": "Averses de pluie torrentielle",
+      "text": "Il fait %degree °C à %city avec des averses de pluie torrentielle"
+    }
+  },
+  {
+    "code": 1249,
+    "day": {
+      "en": "Light sleet showers",
+      "fr": "Légères averses de grésil",
+      "text": "Il fait %degree °C à %city avec des légères averses de grésil"
+    },
+    "night": {
+      "en": "Light sleet showers",
+      "fr": "Légères averses de grésil",
+      "text": "Il fait %degree °C à %city avec des légères averses de grésil"
+    }
+  },
+  {
+    "code": 1252,
+    "day": {
+      "en": "Moderate or heavy sleet showers",
+      "fr": "Averses de grésil modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de grésil modérées à fortes"
+    },
+    "night": {
+      "en": "Moderate or heavy sleet showers",
+      "fr": "Averses de grésil modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de grésil modérées à fortes"
+    }
+  },
+  {
+    "code": 1255,
+    "day": {
+      "en": "Light snow showers",
+      "fr": "Légères averses de neige",
+      "text": "Il fait %degree °C à %city avec des légères averses de neige"
+    },
+    "night": {
+      "en": "Light snow showers",
+      "fr": "Légères averses de neige",
+      "text": "Il fait %degree °C à %city avec des légères averses de neige"
+    }
+  },
+  {
+    "code": 1258,
+    "day": {
+      "en": "Moderate or heavy snow showers",
+      "fr": "Averses de neige modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de neige modérées à fortes"
+    },
+    "night": {
+      "en": "Moderate or heavy snow showers",
+      "fr": "Averses de neige modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de neige modérées à fortes"
+    }
+  },
+  {
+    "code": 1261,
+    "day": {
+      "en": "Light showers of ice pellets",
+      "fr": "Légères averses de cristaux de glace",
+      "text": "Il fait %degree °C à %city avec des légères averses de cristaux de glace"
+    },
+    "night": {
+      "en": "Light showers of ice pellets",
+      "fr": "Légères averses de cristaux de glace",
+      "text": "Il fait %degree °C à %city avec des légères averses de cristaux de glace"
+    }
+  },
+  {
+    "code": 1264,
+    "day": {
+      "en": "Moderate or heavy showers of ice pellets",
+      "fr": "Averses de cristaux de glace modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de cristaux de glace modérées à fortes"
+    },
+    "night": {
+      "en": "Moderate or heavy showers of ice pellets",
+      "fr": "Averses de cristaux de glace modérées à fortes",
+      "text": "Il fait %degree °C à %city avec des averses de cristaux de glace modérées à fortes"
+    }
+  },
+  {
+    "code": 1273,
+    "day": {
+      "en": "Patchy light rain in area with thunder",
+      "fr": "Légère pluie éparse avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une légère pluie et tonnerre par endroit"
+    },
+    "night": {
+      "en": "Patchy light rain in area with thunder",
+      "fr": "Légère pluie éparse avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une légère pluie et tonnerre par endroit"
+    }
+  },
+  {
+    "code": 1276,
+    "day": {
+      "en": "Moderate or heavy rain in area with thunder",
+      "fr": "Pluie forte à modérée avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une pluie forte à modérée et tonnerre par endroit"
+    },
+    "night": {
+      "en": "Moderate or heavy rain in area with thunder",
+      "fr": "Pluie forte à modérée avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une pluie forte à modérée et tonnerre par endroit"
+    }
+  },
+  {
+    "code": 1279,
+    "day": {
+      "en": "Patchy light snow in area with thunder",
+      "fr": "Légère neige éparse avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une légère neige et tonnerre par endroit"
+    },
+    "night": {
+      "en": "Patchy light snow in area with thunder",
+      "fr": "Légère neige éparse avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une légère neige et tonnerre par endroit"
+    }
+  },
+  {
+    "code": 1282,
+    "day": {
+      "en": "Moderate or heavy snow in area with thunder",
+      "fr": "Neige éparse modérée à forte avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une neige modérée à forte et tonnerre par endroit"
+    },
+    "night": {
+      "en": "Moderate or heavy snow in area with thunder",
+      "fr": "Neige éparse modérée à forte avec tonnerre par endroit",
+      "text": "Il fait %degree °C à %city avec une neige modérée à forte et tonnerre par endroit"
+    }
+  }
+]

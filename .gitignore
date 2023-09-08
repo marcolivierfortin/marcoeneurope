@@ -1,0 +1,23 @@
+# Exclude macOS files.
+.DS_Store
+
+# Exclude IDEs and editor files.
+.idea/
+.vscode/
+
+# Exclude the vendor directory.
+/node_modules/
+
+# Exclude the transpiled files.
+/dist/
+
+# Exclude application cache files.
+.angular
+.audio
+.cache
+.next
+.nuxt
+.vite
+
+# Exclude environment files.
+.env
