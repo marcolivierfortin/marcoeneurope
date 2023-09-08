@@ -437,6 +437,21 @@ footer {
         }
       }
 
+      p a {
+        padding: 2px 3px;
+
+        color: $color-secondary;
+      }
+
+      p a:hover,
+      p a:focus {
+        background: $color-secondary;
+
+        color: $background-dark;
+
+        text-decoration: none;
+      }
+
       &:after {
         content: "";
 

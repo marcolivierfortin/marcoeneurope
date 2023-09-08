@@ -104,7 +104,7 @@ export default class Event extends Component<EventProps, EventState> {
           </p>
 
           { this.props.event.description.map((item, index) => (
-            <p key={ 'event ' + this.props.event.timeStamp + ' description ' + index }>{ item }</p>
+            <p key={ 'event ' + this.props.event.timeStamp + ' description ' + index } dangerouslySetInnerHTML={ { __html: item } }></p>
           )) }
 
           { this.props.event.type === 'activity' && (

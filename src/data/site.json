@@ -249,11 +249,11 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Départ du train vers Rotterdam, NL",
       "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Direct opéré par Nederlandse Spoorwegen et pouvant aller jusqu'à 200 km/h.",
+        "Le trajet se fait à bord d'un train du service Intercity Direct opéré par Nederlandse Spoorwegen avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/Voiture_ICR\" target=\"_blank\">modèle ICR</a> pouvant aller jusqu'à 160 km/h.",
         "Le trajet reliant la Gare centrale d'Amsterdam à la Gare centrale de Rotterdam se fait sans arrêt."
       ],
       "company": "nederlandse-spoorwegen",
-      "number": "1034",
+      "number": "IC 1034",
       "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)",
       "duration": 47,
       "links": [
@@ -271,7 +271,7 @@
       "title": "Arrivée du train à Rotterdam, NL",
       "description": [],
       "company": "nederlandse-spoorwegen",
-      "number": "1034",
+      "number": "IC 1034",
       "location": "Rotterdam Centraal (Gare centrale de Rotterdam)"
     },
     {
@@ -368,11 +368,11 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Départ du train vers Berlin, DE",
       "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par NS International (Nederlandse Spoorwegen) et pouvant aller jusqu'à 250 km/h.",
-        "Le trajet reliant la Gare centrale de Rotterdam à la Gare centrale de Berlin se fait avec plusieurs arrêts (dont à Utrecht et à Hanovre). J'aurai aussi une correspondance à Amersfoort aux Pays-Bas en début de parcours afin de changer de train."
+        "Le trajet se fait à bord d'un train du service Intercity Express opéré par NS International (Nederlandse Spoorwegen) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> pouvant aller jusqu'à 330 km/h.",
+        "Le trajet reliant la Gare centrale de Rotterdam à la Gare centrale de Berlin se fait avec une correspondance en début de parcours à Amersfoort aux Pays-Bas afin de changer de train. Le train fera 3 arrêts avant la correspondance (dont un à Utrecht) et 13 arrêts après la correspondance (dont un à Hanovre)."
       ],
       "company": "ns-international",
-      "number": "IC 629",
+      "number": "ICE 629",
       "location": "Rotterdam Centraal (Gare centrale de Rotterdam)",
       "duration": 410,
       "links": [
@@ -392,7 +392,7 @@
         "Transfert de 13 minutes pour prendre le train vers Berlin."
       ],
       "company": "ns-international",
-      "number": "IC 629 / IC 143",
+      "number": "ICE 629 / ICE 143",
       "location": "Amersfoort Centraal (Gare centrale d'Amersfoort)",
       "duration": 13
     },
@@ -404,7 +404,7 @@
       "title": "Arrivée du train à Berlin, DE",
       "description": [],
       "company": "ns-international",
-      "number": "IC 143",
+      "number": "ICE 143",
       "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)"
     },
     {
@@ -511,7 +511,7 @@
       "timeZone": "Europe/Berlin",
       "title": "Départ du train vers Wuppertal, DE",
       "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn et pouvant aller jusqu'à 250 km/h.",
+        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
         "Le trajet reliant la Gare centrale de Berlin à la Gare centrale de Wuppertal se fait avec 7 arrêts en Allemagne dont un à Hanovre."
       ],
       "company": "deutsche-bahn",
@@ -631,7 +631,7 @@
       "timeZone": "Europe/Berlin",
       "title": "Départ du train vers Köln (Cologne), DE",
       "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn et pouvant aller jusqu'à 250 km/h.",
+        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
         "Le trajet reliant la Gare centrale de Wuppertal à la Gare centrale de Cologne se fait sans arrêt."
       ],
       "company": "deutsche-bahn",
@@ -682,7 +682,8 @@
       "timeZone": "Europe/Berlin",
       "title": "Départ du train vers Paris, FR",
       "description": [
-        "Le trajet se fait à bord d'un train de type TGV opéré par Thalys. Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys disparaîtra d'ici la fin de l'année au profit de celle d'Eurostar. La vitesse du train est de 300 km/h.",
+        "Le trajet se fait à bord d'un train de type TGV opéré par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a> pouvant atteindre une vitesse de 320 km/h.",
+        "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys disparaîtra d'ici la fin de l'année au profit de celle d'Eurostar.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
       ],
       "company": "thalys-eurostar",
@@ -842,7 +843,7 @@
       "timeZone": "Europe/Paris",
       "title": "Départ du train vers Amsterdam, NL",
       "description": [
-        "Le trajet se fait à bord d'un autre train de type TGV par Thalys. La vitesse du train est aussi de 300 km/h.",
+        "Le trajet se fait à bord d'un autre train de type TGV par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a> pouvant atteindre une vitesse de 320 km/h.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
       ],
       "company": "thalys-eurostar",
