@@ -10,19 +10,4 @@ export default {
     // Define the default locale for the application.
     defaultLocale: 'fr',
   },
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'marcoeneurope.vercel.app',
-          },
-        ],
-        destination: process.env.HOST + '/:path*',
-        permanent: true,
-      },
-    ];
-  },
 };
