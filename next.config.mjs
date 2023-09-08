@@ -20,18 +20,7 @@ export default {
             value: 'marcoeneurope.vercel.app',
           },
         ],
-        destination: 'https://marcoeneurope.com/:path*',
-        permanent: true,
-      },
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'www.marcoeneurope.com',
-          },
-        ],
-        destination: 'https://marcoeneurope.com/:path*',
+        destination: process.env.HOST + '/:path*',
         permanent: true,
       },
     ];
