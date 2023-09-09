@@ -438,19 +438,23 @@ footer {
         }
       }
 
-      p a {
-        padding: 2px 3px;
+      p {
+        font-size: 14px;
 
-        color: $color-secondary;
-      }
+        a {
+          padding: 2px 3px;
 
-      p a:hover,
-      p a:focus {
-        background: $color-secondary;
+          color: $color-secondary;
+        }
 
-        color: $background-dark;
+        a:hover,
+        a:focus {
+          background: $color-secondary;
 
-        text-decoration: none;
+          color: $background-dark;
+
+          text-decoration: none;
+        }
       }
 
       &:after {
