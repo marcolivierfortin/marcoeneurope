@@ -1339,6 +1339,15 @@
         "width": 503,
         "height": 512
       }
+    },
+    {
+      "id": "intercity-express",
+      "title": "Intercity Express",
+      "image": {
+        "path": "/images/intercity-express.svg",
+        "width": 1023,
+        "height": 512
+      }
     }
   ],
   "settings": {
