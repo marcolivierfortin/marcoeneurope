@@ -347,8 +347,8 @@ footer {
         line-height: 14px;
       }
 
-      // Company logo.
-      .company-logo {
+      // Brand.
+      .brand {
         display: inline-block;
 
         width: auto;
@@ -359,19 +359,19 @@ footer {
 
         filter: brightness(0) invert(1);
 
-        &.company-logo-deutsche-bahn {
+        &.brand-deutsche-bahn {
           height: 16px;
         }
 
-        &.company-logo-nederlandse-spoorwegen,
-        &.company-logo-ns-international,
-        &.company-logo-intercity-express {
+        &.brand-nederlandse-spoorwegen,
+        &.brand-ns-international,
+        &.brand-intercity-express {
           height: 14px;
         }
       }
 
-      // Company tag.
-      .company-tag {
+      // Tag.
+      .tag {
         background: $color-light;
         color: $background-dark;
         font-size: 13px;

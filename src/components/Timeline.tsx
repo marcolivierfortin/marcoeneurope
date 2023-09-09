@@ -23,11 +23,10 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
         <div className="summary">
           <p className={ 'events' }>
             { this.props.site.events.length } { this.props.site.settings.events }
-            <button title={ this.props.site.filters.description.shift() }>{ this.props.site.filters.title }</button></p>
+            {/* <button title={ this.props.site.filters.description.shift() }>{ this.props.site.filters.title }</button> */}
+          </p>
 
-          <Filters
-            filters={ this.props.site.filters }
-          />
+          <Filters />
         </div>
 
         { Object.entries(this.groupEventsByDays()).map(day => (
@@ -36,7 +35,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
             day={ day[0] }
             events={ day[1] }
             countries={ this.props.site.countries }
-            companies={ this.props.site.companies }
+            brands={ this.props.site.brands }
             settings={ this.props.site.settings }
           />
         )) }

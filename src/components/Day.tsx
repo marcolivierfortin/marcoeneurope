@@ -3,7 +3,7 @@
 import Event from './Event';
 import React, { Component } from 'react';
 import fr from 'date-fns/locale/fr';
-import { CompanyInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
+import { BrandInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
 import { formatInTimeZone } from 'date-fns-tz';
 
 /**
@@ -32,7 +32,7 @@ export default class Day extends Component<DayProps, DayState> {
               key={ 'event ' + this.props.day + ' ' + event.timeStamp + ' ' + index }
               event={ event }
               countries={ this.props.countries }
-              companies={ this.props.companies }
+              brands={ this.props.brands }
               settings={ this.props.settings }
             />
           )) }
@@ -51,7 +51,7 @@ export interface DayProps {
   day: string;
   events: EventInterface[];
   countries: CountryInterface[];
-  companies: CompanyInterface[];
+  brands: BrandInterface[];
   settings: SettingsInterface;
 }
 

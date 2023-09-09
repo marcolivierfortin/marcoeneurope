@@ -1,7 +1,6 @@
 'use client';
 
-import React, { Component } from 'react';
-import { ElementInterface } from '../interfaces';
+import React, { Component, Fragment } from 'react';
 
 /**
  * The `filters` component.
@@ -15,9 +14,7 @@ export default class Filters extends Component<FiltersProps, FiltersState> {
    */
   public render(): React.JSX.Element {
     return (
-      <div>
-
-      </div>
+      <Fragment></Fragment>
     );
   }
 
@@ -26,9 +23,7 @@ export default class Filters extends Component<FiltersProps, FiltersState> {
 /**
  * The `filters` component props.
  */
-export interface FiltersProps {
-  filters: ElementInterface;
-}
+export interface FiltersProps {}
 
 /**
  * The `filters` component state.

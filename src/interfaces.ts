@@ -8,7 +8,7 @@ export interface SiteInterface extends ElementInterface {
   news: NewsInterface[];
   partners: PartnerInterface[];
   countries: CountryInterface[];
-  companies: CompanyInterface[];
+  brands: BrandInterface[];
   settings: SettingsInterface;
 }
 
@@ -27,7 +27,7 @@ export interface EventInterface extends ElementInterface {
   country: string;
   location: string;
   phone?: string;
-  company?: string;
+  brand?: string;
   number?: string;
   seat?: string;
   fleet?: string;
@@ -47,7 +47,6 @@ export interface NewsInterface {
 // Partner.
 export interface PartnerInterface extends ElementInterface {
   id: string;
-  image: ImageInterface;
   link: LinkInterface;
 }
 
@@ -57,8 +56,8 @@ export interface CountryInterface {
   title: string;
 }
 
-// Company.
-export interface CompanyInterface {
+// Brand.
+export interface BrandInterface {
   id: string;
   title: string;
   image: ImageInterface;

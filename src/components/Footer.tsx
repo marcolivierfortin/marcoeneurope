@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { Component } from 'react';
-import { AuthorInterface, PartnerInterface, SettingsInterface } from '../interfaces';
+import { AuthorInterface, BrandInterface, PartnerInterface, SettingsInterface } from '../interfaces';
 import { formatInTimeZone } from 'date-fns-tz';
 
 /**
@@ -25,17 +25,20 @@ export default class Footer extends Component<FooterProps, FooterState> {
           <p>
             { this.props.partners.map(partner => (
               <span key={ 'partner ' + partner.id }>
-                <span>{ partner.description }</span>
+                <span>{ partner.title }</span>
 
                 <Link href={ partner.link.path } target={ partner.link.target } title={ partner.link.title }>
-                  <Image
-                    src={ partner.image.path }
-                    alt={ partner.title }
-                    title={ partner.link.title }
-                    width={ partner.image.width }
-                    height={ partner.image.height }
-                    quality={ 100 }
-                  />
+                  { this.props.brands.filter(brand => brand.id === partner.id).map(brand => (
+                    <Image
+                      key={ 'partner ' + partner.id + ' image ' + brand.id }
+                      src={ brand.image.path }
+                      alt={ partner.title }
+                      title={ partner.link.title }
+                      width={ brand.image.width }
+                      height={ brand.image.height }
+                      quality={ 100 }
+                    />
+                  )) }
                 </Link>
               </span>
             )) }
@@ -57,6 +60,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 export interface FooterProps {
   author: AuthorInterface;
   partners: PartnerInterface[];
+  brands: BrandInterface[];
   settings: SettingsInterface;
 }
 

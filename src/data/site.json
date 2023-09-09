@@ -54,7 +54,7 @@
       "description": [
         "Départ de la maison à bord du bus 747 de la STM."
       ],
-      "company": "stm",
+      "brand": "stm",
       "number": "747",
       "location": "Rue Saint-Christophe",
       "duration": 45
@@ -77,7 +77,7 @@
       "description": [
         "Mon vol d'aller se fait avec Air Canada en liaison directe. Selon l'historique des vols récents, il est généralement assez à l'heure mais lorsqu'il est en retard, c'est rarement plus de 30 minutes."
       ],
-      "company": "air-canada",
+      "brand": "air-canada",
       "number": "AC 900",
       "fleet": "Boeing 787",
       "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
@@ -112,7 +112,7 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Atterrissage du vol à Amsterdam, NL",
       "description": [],
-      "company": "air-canada",
+      "brand": "air-canada",
       "number": "AC 900",
       "fleet": "Boeing 787",
       "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
@@ -252,7 +252,7 @@
         "Le trajet se fait à bord d'un train du service Intercity Direct opéré par Nederlandse Spoorwegen avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/Voiture_ICR\" target=\"_blank\">modèle ICR</a> pouvant aller jusqu'à 160 km/h.",
         "Le trajet reliant la Gare centrale d'Amsterdam à la Gare centrale de Rotterdam se fait sans arrêt."
       ],
-      "company": "nederlandse-spoorwegen",
+      "brand": "nederlandse-spoorwegen",
       "number": "IC 1034",
       "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)",
       "duration": 47,
@@ -270,7 +270,7 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Arrivée du train à Rotterdam, NL",
       "description": [],
-      "company": "nederlandse-spoorwegen",
+      "brand": "nederlandse-spoorwegen",
       "number": "IC 1034",
       "location": "Rotterdam Centraal (Gare centrale de Rotterdam)"
     },
@@ -371,7 +371,7 @@
         "Le trajet se fait à bord d'un train du service Intercity Express opéré par NS International (Nederlandse Spoorwegen) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> pouvant aller jusqu'à 330 km/h.",
         "Le trajet reliant la Gare centrale de Rotterdam à la Gare centrale de Berlin se fait avec une correspondance en début de parcours à Amersfoort aux Pays-Bas afin de changer de train. Le train fera 3 arrêts avant la correspondance (dont un à Utrecht) et 13 arrêts après la correspondance (dont un à Hanovre)."
       ],
-      "company": "ns-international",
+      "brand": "ns-international",
       "number": "ICE 629",
       "location": "Rotterdam Centraal (Gare centrale de Rotterdam)",
       "duration": 410,
@@ -391,7 +391,7 @@
       "description": [
         "Transfert de 13 minutes pour prendre le train vers Berlin."
       ],
-      "company": "ns-international",
+      "brand": "ns-international",
       "number": "ICE 629 / ICE 143",
       "location": "Amersfoort Centraal (Gare centrale d'Amersfoort)",
       "duration": 13
@@ -403,7 +403,7 @@
       "timeZone": "Europe/Berlin",
       "title": "Arrivée du train à Berlin, DE",
       "description": [],
-      "company": "ns-international",
+      "brand": "ns-international",
       "number": "ICE 143",
       "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)"
     },
@@ -514,7 +514,7 @@
         "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
         "Le trajet reliant la Gare centrale de Berlin à la Gare centrale de Wuppertal se fait avec 7 arrêts en Allemagne dont un à Hanovre."
       ],
-      "company": "deutsche-bahn",
+      "brand": "deutsche-bahn",
       "number": "ICE 952",
       "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)",
       "duration": 232,
@@ -532,7 +532,7 @@
       "timeZone": "Europe/Berlin",
       "title": "Arrivée du train à Wuppertal, DE",
       "description": [],
-      "company": "deutsche-bahn",
+      "brand": "deutsche-bahn",
       "number": "ICE 952",
       "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)"
     },
@@ -634,7 +634,7 @@
         "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
         "Le trajet reliant la Gare centrale de Wuppertal à la Gare centrale de Cologne se fait sans arrêt."
       ],
-      "company": "deutsche-bahn",
+      "brand": "deutsche-bahn",
       "number": "ICE 956",
       "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)",
       "duration": 29,
@@ -652,7 +652,7 @@
       "timeZone": "Europe/Berlin",
       "title": "Arrivée du train à Köln (Cologne), DE",
       "description": [],
-      "company": "deutsche-bahn",
+      "brand": "deutsche-bahn",
       "number": "ICE 956",
       "location": "Köln Hauptbahnhof (Gare centrale de Cologne)"
     },
@@ -686,7 +686,7 @@
         "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys disparaîtra d'ici la fin de l'année au profit de celle d'Eurostar.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
       ],
-      "company": "thalys-eurostar",
+      "brand": "thalys-eurostar",
       "number": "9448",
       "seat": "voiture 28 / siège 73",
       "location": "Köln Hauptbahnhof (Gare centrale de Cologne)",
@@ -716,7 +716,7 @@
       "description": [
         "L'arrivée du train se fait à la Gare de Paris-Nord et c'est aussi de cette gare que je reprendrai le train vers Amsterdam dans 3 jours. La gare est à 15 minutes de marche de mon hôtel."
       ],
-      "company": "thalys-eurostar",
+      "brand": "thalys-eurostar",
       "number": "9448",
       "location": "Gare de Paris-Nord"
     },
@@ -846,7 +846,7 @@
         "Le trajet se fait à bord d'un autre train de type TGV par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
       ],
-      "company": "thalys-eurostar",
+      "brand": "thalys-eurostar",
       "number": "9351",
       "seat": "voiture 17 / siège 77",
       "location": "Gare de Paris-Nord",
@@ -874,7 +874,7 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Arrivée du train à Amsterdam, NL",
       "description": [],
-      "company": "thalys-eurostar",
+      "brand": "thalys-eurostar",
       "number": "9351",
       "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)"
     },
@@ -946,7 +946,7 @@
       "description": [
         "Mon vol de retour se fait aussi avec Air Canada en liaison directe. Selon l'historique des vols récents, il est presque toujours à l'heure."
       ],
-      "company": "air-canada",
+      "brand": "air-canada",
       "number": "AC 901",
       "fleet": "Boeing 787",
       "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
@@ -984,7 +984,7 @@
       "timeZone": "America/Montreal",
       "title": "Atterrissage du vol à Montréal, CA",
       "description": [],
-      "company": "air-canada",
+      "brand": "air-canada",
       "number": "AC 901",
       "fleet": "Boeing 787",
       "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
@@ -1231,15 +1231,8 @@
   "partners": [
     {
       "id": "nextjs",
-      "title": "Next.js",
-      "description": [
-        "Conçu avec"
-      ],
-      "image": {
-        "path": "/images/nextjs.svg",
-        "width": 2540,
-        "height": 512
-      },
+      "title": "Conçu avec",
+      "description": [],
       "link": {
         "title": "Consulter le site du framework Next.js",
         "path": "https://nextjs.org/",
@@ -1248,15 +1241,8 @@
     },
     {
       "id": "vercel",
-      "title": "Vercel",
-      "description": [
-        "Propulsé par"
-      ],
-      "image": {
-        "path": "/images/vercel.svg",
-        "width": 2272,
-        "height": 512
-      },
+      "title": "Propulsé par",
+      "description": [],
       "link": {
         "title": "Consulter le site de la plateforme Vercel",
         "path": "https://vercel.com/",
@@ -1294,7 +1280,7 @@
       "title": "France"
     }
   ],
-  "companies": [
+  "brands": [
     {
       "id": "air-canada",
       "title": "Air Canada",
@@ -1346,6 +1332,24 @@
       "image": {
         "path": "/images/intercity-express.svg",
         "width": 1023,
+        "height": 512
+      }
+    },
+    {
+      "id": "nextjs",
+      "title": "Next.js",
+      "image": {
+        "path": "/images/nextjs.svg",
+        "width": 2540,
+        "height": 512
+      }
+    },
+    {
+      "id": "vercel",
+      "title": "Vercel",
+      "image": {
+        "path": "/images/vercel.svg",
+        "width": 2272,
         "height": 512
       }
     }

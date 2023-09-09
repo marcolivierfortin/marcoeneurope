@@ -61,6 +61,7 @@ export default function RootLayout({ children }): React.JSX.Element {
           <Footer
             author={ site.author }
             partners={ site.partners }
+            brands={ site.brands }
             settings={ site.settings }
           />
         </div>

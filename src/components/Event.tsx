@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React, { Component } from 'react';
 import fr from 'date-fns/locale/fr';
 import { CircleFlag } from 'react-circle-flags';
-import { CompanyInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
+import { BrandInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
 import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
 
@@ -52,34 +52,40 @@ export default class Event extends Component<EventProps, EventState> {
           ) }
 
           <p>
-            { this.props.event.company && (
+            { this.props.event.brand && (
               <span>
-                { this.props.companies.filter(company => company.id === this.props.event.company).map(company => (
-                  <span key={ 'event ' + this.props.event.timeStamp + ' company ' + company.id }>
+                { this.props.brands.filter(brand => brand.id === this.props.event.brand).map(brand => (
+                  <span key={ 'event ' + this.props.event.timeStamp + ' brand ' + brand.id }>
                     <Image
-                      className={ 'company-logo company-logo-' + company.id }
-                      src={ company.image.path }
-                      alt={ company.title }
-                      title={ company.title }
-                      width={ company.image.width }
-                      height={ company.image.height }
+                      className={ 'brand brand-' + brand.id }
+                      src={ brand.image.path }
+                      alt={ brand.title }
+                      title={ brand.title }
+                      width={ brand.image.width }
+                      height={ brand.image.height }
                       quality={ 100 }
                     />
 
-                    <span className={ 'company-tag' }>
-                      { company.title }
+                    <span className={ 'tag' }>
+                      { brand.title }
                     </span>
 
                     { this.props.event.number && (
-                      <span className={ 'company-tag' }>{ this.props.event.number }</span>
+                      <span className={ 'tag' }>
+                        { this.props.event.number }
+                      </span>
                     ) }
 
                     { this.props.event.seat && (
-                      <span className={ 'company-tag' }>{ this.props.event.seat }</span>
+                      <span className={ 'tag' }>
+                        { this.props.event.seat }
+                      </span>
                     ) }
 
                     { this.props.event.fleet && (
-                      <span className={ 'company-tag' }>{ this.props.event.fleet }</span>
+                      <span className={ 'tag' }>
+                        { this.props.event.fleet }
+                      </span>
                     ) }
                   </span>
                 )) }
@@ -87,7 +93,7 @@ export default class Event extends Component<EventProps, EventState> {
             ) }
 
             { this.props.event.duration && (
-              <span className={ 'company-tag' }>
+              <span className={ 'tag' }>
                 { formatDuration({
                   hours: Math.floor(this.props.event.duration / 60),
                   minutes: this.props.event.duration % 60,
@@ -127,7 +133,7 @@ export default class Event extends Component<EventProps, EventState> {
 export interface EventProps {
   event: EventInterface;
   countries: CountryInterface[];
-  companies: CompanyInterface[];
+  brands: BrandInterface[];
   settings: SettingsInterface;
 }
 
