@@ -358,7 +358,9 @@
       "timeStamp": "2023-10-05T05:00:00.000Z",
       "timeZone": "Europe/Amsterdam",
       "title": "Départ de l'hôtel de Rotterdam, NL",
-      "description": [],
+      "description": [
+        "Le départ se fait au plus tard à 11:00 le jour du départ."
+      ],
       "location": "The James Hotel Rotterdam"
     },
     {
@@ -501,7 +503,9 @@
       "timeStamp": "2023-10-08T06:00:00.000Z",
       "timeZone": "Europe/Berlin",
       "title": "Départ de l'hôtel de Berlin, DE",
-      "description": [],
+      "description": [
+        "Le départ se fait au plus tard à 12:00 le jour du départ."
+      ],
       "location": "Park Inn par Radisson Berlin Alexanderplatz"
     },
     {
@@ -621,7 +625,9 @@
       "timeStamp": "2023-10-10T06:00:00.000Z",
       "timeZone": "Europe/Berlin",
       "title": "Départ de l'hôtel de Wuppertal, DE",
-      "description": [],
+      "description": [
+        "Le départ se fait au plus tard à 12:00 le jour du départ."
+      ],
       "location": "B&B Hotel Wuppertal"
     },
     {
@@ -833,7 +839,9 @@
       "timeStamp": "2023-10-13T10:00:00.000Z",
       "timeZone": "Europe/Paris",
       "title": "Départ de l'hôtel de Paris, FR",
-      "description": [],
+      "description": [
+        "Le départ se fait au plus tard à 11:00 le jour du départ."
+      ],
       "location": "Le Régent Montmartre par Hiphophostels"
     },
     {
@@ -914,7 +922,9 @@
       "timeStamp": "2023-10-14T08:30:00.000Z",
       "timeZone": "Europe/Amsterdam",
       "title": "Départ de l'hôtel d'Amsterdam, NL",
-      "description": [],
+      "description": [
+        "Le départ se fait au plus tard à 12:00 le jour du départ."
+      ],
       "location": "nhow Amsterdam RAI"
     },
     {
