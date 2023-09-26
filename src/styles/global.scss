@@ -443,8 +443,11 @@ footer {
 
         a {
           padding: 2px 3px;
+          border-radius: 5px;
 
           color: $color-secondary;
+
+          white-space: nowrap;
         }
 
         a:hover,
