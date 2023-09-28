@@ -90,6 +90,7 @@ export interface SettingsInterface {
   currentDate: string | null;
   events: string;
   eventNote: string;
+  eventTotal: string;
   close: string;
 }
 

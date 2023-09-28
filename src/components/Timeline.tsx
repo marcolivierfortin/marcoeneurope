@@ -5,6 +5,7 @@ import Filters from './Filters';
 import React, { Component } from 'react';
 import fr from 'date-fns/locale/fr';
 import { EventInterface, SiteInterface } from '../interfaces';
+import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
 
 /**
@@ -39,8 +40,40 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
             settings={ this.props.site.settings }
           />
         )) }
+
+        <div className="summary">
+          <p className={ 'events' }>
+            { this.props.site.settings.eventTotal.replace('%flight', this.getDurationByType('flight')).replace('%train', this.getDurationByType('train')) }
+          </p>
+        </div>
       </main>
     );
+  }
+
+  /**
+   * Get the duration of all events by type.
+   *
+   * @param {string} type
+   *   The event type.
+   *
+   * @return {string}
+   */
+  private getDurationByType(type: string): string {
+    const duration = this.props.site.events.filter(event => event.type.search(`${ type }`) === 0).map(event => {
+      return event.duration || 0;
+    }).reduce((first, second) => first + second);
+
+    return formatDuration({
+      hours: Math.floor(duration / 60),
+      minutes: duration % 60,
+    }, {
+      format: [
+        'days',
+        'hours',
+        'minutes',
+      ],
+      locale: fr,
+    });
   }
 
   /**
