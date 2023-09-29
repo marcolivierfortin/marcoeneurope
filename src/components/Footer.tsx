@@ -32,7 +32,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
                     <Image
                       key={ 'partner ' + partner.id + ' image ' + brand.id }
                       src={ brand.image.path }
-                      alt={ partner.title }
+                      alt={ brand.title }
                       title={ partner.link.title }
                       width={ brand.image.width }
                       height={ brand.image.height }
