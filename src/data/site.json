@@ -692,8 +692,8 @@
         "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys disparaîtra d'ici la fin de l'année au profit de celle d'Eurostar.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
       ],
-      "brand": "thalys-eurostar",
-      "number": "9448",
+      "brand": "eurostar",
+      "number": "ER 9448",
       "seat": "voiture 28 / siège 73",
       "location": "Köln Hauptbahnhof (Gare centrale de Cologne)",
       "duration": 204,
@@ -722,8 +722,8 @@
       "description": [
         "L'arrivée du train se fait à la Gare de Paris-Nord et c'est aussi de cette gare que je reprendrai le train vers Amsterdam dans 3 jours. La gare est à 15 minutes de marche de mon hôtel."
       ],
-      "brand": "thalys-eurostar",
-      "number": "9448",
+      "brand": "eurostar",
+      "number": "ER 9448",
       "location": "Gare de Paris-Nord"
     },
     {
@@ -854,8 +854,8 @@
         "Le trajet se fait à bord d'un autre train de type TGV par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
       ],
-      "brand": "thalys-eurostar",
-      "number": "9351",
+      "brand": "eurostar",
+      "number": "ER 9351",
       "seat": "voiture 17 / siège 77",
       "location": "Gare de Paris-Nord",
       "duration": 204,
@@ -882,8 +882,8 @@
       "timeZone": "Europe/Amsterdam",
       "title": "Arrivée du train à Amsterdam, NL",
       "description": [],
-      "brand": "thalys-eurostar",
-      "number": "9351",
+      "brand": "eurostar",
+      "number": "ER 9351",
       "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)"
     },
     {
@@ -1328,8 +1328,8 @@
       }
     },
     {
-      "id": "thalys-eurostar",
-      "title": "Thalys par Eurostar",
+      "id": "eurostar",
+      "title": "Eurostar",
       "image": {
         "path": "/images/eurostar.svg",
         "width": 503,
