@@ -1,10 +1,10 @@
 'use client';
 
+import Flag from './Flag';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { Component } from 'react';
 import fr from 'date-fns/locale/fr';
-import { CircleFlag } from 'react-circle-flags';
 import { BrandInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
 import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
@@ -32,15 +32,12 @@ export default class Event extends Component<EventProps, EventState> {
 
         <span className="event-content">
           <h3>
-            <CircleFlag
-              className={ 'event-country' }
-              countryCode={ this.props.event.country }
-              alt={ this.props.countries.filter(country => country.id === this.props.event.country).shift()?.title }
-              title={ this.props.countries.filter(country => country.id === this.props.event.country).shift()?.title }
-              width={ 120 }
-              height={ 120 }
-              data-testid={ null }
-            />
+            <span className={ 'event-country' }>
+              <Flag
+                title={ this.props.countries.filter(country => country.id === this.props.event.country).shift()?.title as string }
+                path={ this.props.event.country }
+              />
+            </span>
 
             { this.props.event.title }
           </h3>

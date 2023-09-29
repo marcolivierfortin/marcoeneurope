@@ -1,12 +1,12 @@
 'use client';
 
+import Flag from './Flag';
 import Image from 'next/image';
 import Link from 'next/link';
 import Modal from './Modal';
 import React, { Component, Fragment } from 'react';
 import fr from 'date-fns/locale/fr';
 import { AuthorInterface, CountryInterface, ElementInterface, EventInterface, LinkInterface, SettingsInterface } from '../interfaces';
-import { CircleFlag } from 'react-circle-flags';
 import { formatInTimeZone } from 'date-fns-tz';
 
 /**
@@ -59,13 +59,9 @@ export default class Header extends Component<HeaderProps, HeaderState> {
             quality={ 100 }
           />
 
-          <CircleFlag
-            countryCode={ 'eu' }
-            alt={ this.props.countries.filter(country => country.id === 'eu').shift()?.title }
-            title={ this.props.countries.filter(country => country.id === 'eu').shift()?.title }
-            width={ 120 }
-            height={ 120 }
-            data-testid={ null }
+          <Flag
+            title={ this.props.countries.filter(country => country.id === 'eu').shift()?.title as string }
+            path={ 'eu' }
           />
         </div>
 

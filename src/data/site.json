@@ -95,7 +95,7 @@
     },
     {
       "type": "time-change",
-      "country": "earth",
+      "country": "other/earth",
       "timeStamp": "2023-09-30T08:10:00.000Z",
       "timeZone": "Atlantic/Azores",
       "title": "Changement de fuseau horaire",
@@ -978,7 +978,7 @@
     },
     {
       "type": "time-change",
-      "country": "earth",
+      "country": "other/earth",
       "timeStamp": "2023-10-14T19:00:00.000Z",
       "timeZone": "Atlantic/Azores",
       "title": "Changement de fuseau horaire",
@@ -1262,7 +1262,7 @@
   ],
   "countries": [
     {
-      "id": "earth",
+      "id": "other/earth",
       "title": "Eaux internationales"
     },
     {
