@@ -1368,7 +1368,7 @@
     "currentDate": null,
     "events": "événements",
     "eventNote": "<strong>Note</strong> : Je ferai cette activité pendant mon séjour à %location mais peut être pas à la journée indiquée.",
-    "eventTotal": "%flight de vol et %train de train",
+    "eventTotal": "%flight de vol<br />%train de train",
     "close": "Fermer"
   }
 }

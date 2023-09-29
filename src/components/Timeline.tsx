@@ -42,9 +42,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
         )) }
 
         <div className="summary">
-          <p className={ 'events' }>
-            { this.props.site.settings.eventTotal.replace('%flight', this.getDurationByType('flight')).replace('%train', this.getDurationByType('train')) }
-          </p>
+          <p className={ 'events' } dangerouslySetInnerHTML={ { __html: this.props.site.settings.eventTotal.replace('%flight', this.getDurationByType('flight')).replace('%train', this.getDurationByType('train')) } }></p>
         </div>
       </main>
     );
