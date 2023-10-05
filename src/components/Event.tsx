@@ -73,15 +73,15 @@ export default class Event extends Component<EventProps, EventState> {
                       </span>
                     ) }
 
-                    { this.props.event.seat && (
-                      <span className={ 'tag' }>
-                        { this.props.event.seat }
-                      </span>
-                    ) }
-
                     { this.props.event.fleet && (
                       <span className={ 'tag' }>
                         { this.props.event.fleet }
+                      </span>
+                    ) }
+
+                    { this.props.event.seat && (
+                      <span className={ 'tag' }>
+                        { this.props.event.seat }
                       </span>
                     ) }
                   </span>
