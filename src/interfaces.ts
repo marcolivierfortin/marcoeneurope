@@ -29,8 +29,8 @@ export interface EventInterface extends ElementInterface {
   phone?: string;
   brand?: string;
   number?: string;
-  seat?: string;
   fleet?: string;
+  seat?: string;
   links?: LinkInterface[];
 }
 
