@@ -23,7 +23,7 @@ export default function RootLayout({ children }): React.JSX.Element {
 
         { process.env.GOOGLE_TAG && (
           <Fragment>
-            <Script src={'https://www.googletagmanager.com/gtag/js?id=' + process.env.GOOGLE_TAG } />
+            <Script src={ 'https://www.googletagmanager.com/gtag/js?id=' + process.env.GOOGLE_TAG } />
             <Script id="google-analytics">
               {`
                 window.dataLayer = window.dataLayer || [];
