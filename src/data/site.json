@@ -691,8 +691,8 @@
       "timeZone": "Europe/Berlin",
       "title": "Départ du train vers Paris, FR",
       "description": [
-        "Le trajet se fait à bord d'un train de type TGV opéré par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> pouvant atteindre une vitesse de 320 km/h.",
-        "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys disparaîtra d'ici la fin de l'année au profit de celle d'Eurostar.",
+        "Le trajet se fait à bord d'un train de type TGV opéré par Eurostar (anciennement Thalys) en direction avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> pouvant atteindre une vitesse de 320 km/h.",
+        "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys a disparu le 1<sup>er</sup> octobre 2023 au profit de celle d'Eurostar.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
       ],
       "brand": "eurostar",
@@ -854,7 +854,7 @@
       "timeZone": "Europe/Paris",
       "title": "Départ du train vers Amsterdam, NL",
       "description": [
-        "Le trajet se fait à bord d'un autre train de type TGV par Thalys avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
+        "Le trajet se fait à bord d'un autre train de type TGV opéré par Eurostar (anciennement Thalys) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
         "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
       ],
       "brand": "eurostar",
@@ -1108,7 +1108,7 @@
     {
       "timeStampStart": "2023-10-10T10:42:00.000Z",
       "timeStampEnd": "2023-10-10T14:06:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Thalys (Eurostar) en direction de Paris, FR"
+      "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction de Paris, FR"
     },
     {
       "timeStampStart": "2023-10-10T14:06:00.000Z",
@@ -1118,7 +1118,7 @@
     {
       "timeStampStart": "2023-10-13T12:21:00.000Z",
       "timeStampEnd": "2023-10-13T15:44:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Thalys (Eurostar) en direction d'Amsterdam, NL"
+      "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction d'Amsterdam, NL"
     },
     {
       "timeStampStart": "2023-10-13T15:44:00.000Z",
