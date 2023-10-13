@@ -520,6 +520,7 @@
       ],
       "brand": "deutsche-bahn",
       "number": "ICE 952",
+      "seat": "voiture 32 / siège 105",
       "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)",
       "duration": 232,
       "links": [
@@ -642,6 +643,7 @@
       ],
       "brand": "deutsche-bahn",
       "number": "ICE 956",
+      "seat": "voiture 32 / siège 44",
       "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)",
       "duration": 29,
       "links": [
