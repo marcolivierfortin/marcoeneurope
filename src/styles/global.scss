@@ -129,8 +129,10 @@ button {
 
 a:hover,
 a:focus,
+a.active,
 button:hover,
-button:focus {
+button:focus,
+button.active {
   color: $color-light;
 
   text-decoration: underline;
@@ -162,8 +164,10 @@ button {
 
 a.button:hover,
 a.button:focus,
+a.button.active,
 button:hover,
-button:focus {
+button:focus,
+button.active {
   border: 1px solid $color-primary;
   border-bottom: 3px solid $color-primary;
 
