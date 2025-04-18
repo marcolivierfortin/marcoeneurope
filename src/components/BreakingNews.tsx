@@ -2,9 +2,9 @@
 
 import React, { Component } from 'react';
 import Weather from '../data/weather.json';
-import fr from 'date-fns/locale/fr';
 import { ConditionInterface, NewsInterface, SettingsInterface, WeatherInterface } from '../interfaces';
 import { formatInTimeZone } from 'date-fns-tz';
+import { frCA } from 'date-fns/locale';
 
 /**
  * The `breaking news` component.
@@ -21,9 +21,9 @@ export default class BreakingNews extends Component<BreakingNewsProps, BreakingN
   /**
    * The interval timer.
    *
-   * @type {NodeJS.Timer}
+   * @type {NodeJS.Timeout}
    */
-  private interval: NodeJS.Timer;
+  private interval: NodeJS.Timeout;
 
   /**
    * @inheritDoc
@@ -129,7 +129,7 @@ export default class BreakingNews extends Component<BreakingNewsProps, BreakingN
 
         // Format time.
         item.formattedTitle = item.title.replace('%time', formatInTimeZone(now, item.timeZone, 'k \'h\' mm', {
-          locale: fr,
+          locale: frCA,
         }));
       }
     }

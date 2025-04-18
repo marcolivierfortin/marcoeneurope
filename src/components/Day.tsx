@@ -2,9 +2,9 @@
 
 import Event from './Event';
 import React, { Component } from 'react';
-import fr from 'date-fns/locale/fr';
 import { BrandInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
 import { formatInTimeZone } from 'date-fns-tz';
+import { frCA } from 'date-fns/locale';
 
 /**
  * The `day` component.
@@ -19,7 +19,7 @@ export default class Day extends Component<DayProps, DayState> {
   public render(): React.JSX.Element {
     return (
       <div className="day" data-day={ formatInTimeZone(new Date(this.props.events[0].timeStamp), 'America/Montreal', 'yyyy-LL-dd', {
-        locale: fr,
+        locale: frCA,
       }) }>
         <div className="events">
 

@@ -46,7 +46,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
         ) }
 
         <p>
-          ©{ formatInTimeZone(now, 'America/Montreal', 'Y') } <Link href={ this.props.author.link.path } target={ '_blank' } title={ this.props.author.link.title }>{ this.props.author.title }</Link>
+          ©{ formatInTimeZone(now, 'America/Montreal', 'y') } <Link href={ this.props.author.link.path } target={ '_blank' } title={ this.props.author.link.title }>{ this.props.author.title }</Link>
         </p>
       </footer>
     );

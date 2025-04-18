@@ -4,10 +4,10 @@ import Flag from './Flag';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { Component } from 'react';
-import fr from 'date-fns/locale/fr';
 import { BrandInterface, CountryInterface, EventInterface, SettingsInterface } from '../interfaces';
 import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
+import { frCA } from 'date-fns/locale';
 
 /**
  * The `event` component.
@@ -25,7 +25,7 @@ export default class Event extends Component<EventProps, EventState> {
         { !['time-change', 'activity', 'city'].includes(this.props.event.type) && (
           <time dateTime={ this.props.event.timeStamp }>
             { formatInTimeZone(new Date(this.props.event.timeStamp), this.props.event.timeZone, 'k \'h\' mm', {
-              locale: fr,
+              locale: frCA,
             }) }
           </time>
         ) }
@@ -100,7 +100,7 @@ export default class Event extends Component<EventProps, EventState> {
                     'hours',
                     'minutes',
                   ],
-                  locale: fr,
+                  locale: frCA,
                 }) }
               </span>
             ) }

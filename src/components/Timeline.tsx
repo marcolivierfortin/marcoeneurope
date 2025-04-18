@@ -3,10 +3,10 @@
 import Day from './Day';
 import Filters from './Filters';
 import React, { Component } from 'react';
-import fr from 'date-fns/locale/fr';
 import { EventInterface, SiteInterface } from '../interfaces';
 import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
+import { frCA } from 'date-fns/locale';
 
 /**
  * The `timeline` component.
@@ -70,7 +70,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
         'hours',
         'minutes',
       ],
-      locale: fr,
+      locale: frCA,
     });
   }
 
@@ -83,7 +83,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
   private groupEventsByDays(): EventInterface {
     return this.props.site.events.reduce((group, event) => {
       const date = formatInTimeZone(new Date(event.timeStamp), 'America/Montreal', 'PP', {
-        locale: fr,
+        locale: frCA,
       });
 
       group[date] = group[date] ?? [];

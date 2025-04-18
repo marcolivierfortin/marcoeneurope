@@ -5,9 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Modal from './Modal';
 import React, { Component, Fragment } from 'react';
-import fr from 'date-fns/locale/fr';
 import { AuthorInterface, CountryInterface, ElementInterface, EventInterface, LinkInterface, SettingsInterface } from '../interfaces';
 import { formatInTimeZone } from 'date-fns-tz';
+import { frCA } from 'date-fns/locale';
 
 /**
  * The `header` component.
@@ -115,7 +115,7 @@ export default class Header extends Component<HeaderProps, HeaderState> {
 
     // Select the title of the current day or the title of the first day.
     const element = document.querySelector('.day[data-day="' + formatInTimeZone(now, 'America/Montreal', 'yyyy-LL-dd', {
-      locale: fr,
+      locale: frCA,
     }) + '"] h2') || document.querySelector('.day h2');
 
     if (element instanceof Element) {
