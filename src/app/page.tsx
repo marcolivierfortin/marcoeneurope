@@ -2,7 +2,7 @@ import React from 'react';
 import Site from '../data/site.json';
 import Timeline from '../components/Timeline';
 import striptags from 'striptags';
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import { SiteInterface } from '../interfaces';
 
 // noinspection JSUnusedGlobalSymbols
@@ -23,9 +23,6 @@ export const metadata: Metadata = {
   // Apple web app.
   appleWebApp: true,
   applicationName: Site.title,
-
-  // Theme color.
-  themeColor: '#222222',
 
   // Icons.
   icons: [
@@ -68,10 +65,20 @@ export const metadata: Metadata = {
   },
 
   // Format.
-  viewport: 'width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1',
   formatDetection: {
     telephone: false,
   },
+};
+
+export const viewport: Viewport = {
+  // Theme color.
+  themeColor: '#222222',
+
+  // Format.
+  width: 'device-width',
+  initialScale: 1.0,
+  maximumScale: 2.0,
+  userScalable: true,
 };
 
 /**
