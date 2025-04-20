@@ -74,11 +74,13 @@ export default class BreakingNews extends Component<BreakingNewsProps, BreakingN
   public render(): React.JSX.Element {
     return (
       <div className={ 'breaking-news' }>
-        <ul className="news">
-          { this.news.map(item => (
-            <li key={ 'news ' + item.title } className="news-item">{ item.formattedTitle || item.title }</li>
-          )) }
-        </ul>
+        { this.news.length > 0 && (
+          <ul className="news">
+            { this.news.map(item => (
+              <li key={ 'news ' + item.title } className="news-item">{ item.formattedTitle || item.title }</li>
+            )) }
+          </ul>
+        ) }
       </div>
     );
   }

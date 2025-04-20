@@ -57,7 +57,21 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
    * @return {string}
    */
   private getDurationByType(type: string): string {
-    const duration = this.props.site.events.filter(event => event.type.search(`${ type }`) === 0).map(event => {
+    const events = this.props.site.events.filter(event => event.type.search(`${ type }`) === 0);
+
+    if (events.length === 0) {
+      return formatDuration({
+        hours: 0,
+      }, {
+        format: [
+          'hours',
+        ],
+        zero: true,
+        locale: frCA,
+      });
+    }
+
+    const duration = events.map(event => {
       return event.duration || 0;
     }).reduce((first, second) => first + second);
 
@@ -81,8 +95,11 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
    *   The events grouped by days.
    */
   private groupEventsByDays(): EventInterface {
-    return this.props.site.events.reduce((group, event) => {
-      const date = formatInTimeZone(new Date(event.timeStamp), 'America/Montreal', 'PP', {
+    return this.props.site.events.sort((first, second) => {
+      // Sort all events by time stamp before grouping them by day.
+      return new Date(first.timeStamp).valueOf() - new Date(second.timeStamp).valueOf();
+    }).reduce((group, event) => {
+      const date = formatInTimeZone(new Date(event.timeStamp), event.timeZone, 'PP', {
         locale: frCA,
       });
 
