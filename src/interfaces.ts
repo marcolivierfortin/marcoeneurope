@@ -1,11 +1,9 @@
 // Site.
 export interface SiteInterface extends ElementInterface {
   author: AuthorInterface;
+  trips: TripInterface[];
   links: LinkInterface[];
-  contact: ElementInterface;
   filters: ElementInterface;
-  events: EventInterface[];
-  news: NewsInterface[];
   partners: PartnerInterface[];
   countries: CountryInterface[];
   brands: BrandInterface[];
@@ -16,6 +14,13 @@ export interface SiteInterface extends ElementInterface {
 export interface AuthorInterface {
   title: string;
   link: LinkInterface;
+}
+
+// Trip.
+export interface TripInterface extends ElementInterface {
+  contact: ElementInterface;
+  events: EventInterface[];
+  news: NewsInterface[];
 }
 
 // Event.

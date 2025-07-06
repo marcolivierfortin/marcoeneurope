@@ -1,4 +1,6 @@
 {
+  "title": "Marco en Europe",
+  "description": [],
   "author": {
     "title": "Marc-Olivier Fortin",
     "link": {
@@ -7,10 +9,1220 @@
       "target": "_blank"
     }
   },
-  "title": "Marco en Europe",
-  "description": [
-    "Voici mon journal de bord pour suivre l'itinéraire de mes destinations aux <strong>Pays-Bas</strong>, en <strong>Allemagne</strong> et en <strong>France</strong>.",
-    "Mon départ de Montréal se fera le 29 septembre, je serai à <strong>Amsterdam du 30 septembre au 3 octobre</strong>, à <strong>Rotterdam du 3 au 5</strong>, à <strong>Berlin du 5 au 8</strong>, à <strong>Wuppertal du 8 au 10</strong>, à <strong>Paris du 10 au 13</strong> et à <strong>Amsterdam du 13 au 14</strong> avant de prendre le chemin du retour."
+  "trips": [
+    {
+      "title": "2023",
+      "description": [
+        "Voici mon journal de bord pour suivre l'itinéraire de mes destinations aux <strong>Pays-Bas</strong>, en <strong>Allemagne</strong> et en <strong>France</strong>.",
+        "Mon départ de Montréal se fera le 29 septembre, je serai à <strong>Amsterdam du 30 septembre au 3 octobre</strong>, à <strong>Rotterdam du 3 au 5</strong>, à <strong>Berlin du 5 au 8</strong>, à <strong>Wuppertal du 8 au 10</strong>, à <strong>Paris du 10 au 13</strong> et à <strong>Amsterdam du 13 au 14</strong> avant de prendre le chemin du retour."
+      ],
+      "contact": {
+        "title": "Me joindre",
+        "description": [
+          "Pendant mon voyage, je serai joignable par <strong>Messenger</strong> ou bien à un numéro de téléphone autrichien suivant : <strong>+43 678 9021914054</strong>",
+          "Je ne serai pas joignable au numéro de téléphone habituel, ni par message texte, ni par iMessage.",
+          "Je vous laisse aussi les numéros de téléphone de mes hôtels : "
+        ]
+      },
+      "events": [
+        {
+          "type": "home",
+          "country": "ca",
+          "timeStamp": "2023-09-29T22:15:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Départ de la maison",
+          "description": [
+            "Départ de la maison à bord du bus 747 de la STM."
+          ],
+          "brand": "stm",
+          "number": "747",
+          "location": "Rue Saint-Christophe",
+          "duration": 45
+        },
+        {
+          "type": "airport",
+          "country": "ca",
+          "timeStamp": "2023-09-29T23:00:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Arrivée à l'aéroport et enregistrement",
+          "description": [],
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
+        },
+        {
+          "type": "flight-start",
+          "country": "ca",
+          "timeStamp": "2023-09-30T01:50:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Décollage du vol vers Amsterdam, NL",
+          "description": [
+            "Mon vol d'aller se fait avec Air Canada en liaison directe. Selon l'historique des vols récents, il est généralement assez à l'heure mais lorsqu'il est en retard, c'est rarement plus de 30 minutes."
+          ],
+          "brand": "air-canada",
+          "number": "AC 900",
+          "seat": "siège 27G",
+          "fleet": "Boeing 787",
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
+          "duration": 410,
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA900/history/20230930/0200Z/CYUL/EHAM"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=900&t=20230929&o=YUL&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "time-change",
+          "country": "other/earth",
+          "timeStamp": "2023-09-30T08:10:00.000Z",
+          "timeZone": "Atlantic/Azores",
+          "title": "Changement de fuseau horaire",
+          "description": [
+            "Passage au fuseau horaire d'Europe centrale, heure avancée (+ 6 heures).",
+            "Pendant toute la durée de mon voyage, je resterai dans ce fuseau horaire qui couvre tous les pays d'Europe centrale."
+          ],
+          "location": "Océan Atlantique"
+        },
+        {
+          "type": "flight-end",
+          "country": "nl",
+          "timeStamp": "2023-09-30T08:40:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Atterrissage du vol à Amsterdam, NL",
+          "description": [],
+          "brand": "air-canada",
+          "number": "AC 900",
+          "fleet": "Boeing 787",
+          "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA900/history/20230930/0200Z/CYUL/EHAM"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=900&t=20230929&o=YUL&c=AC&l=fr"
+            },
+            {
+              "title": "Site de l'aéroport",
+              "path": "https://www.schiphol.nl/en/arrivals/flight/A20230930AC900/"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "eu",
+          "timeStamp": "2023-09-30T09:40:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Passage aux douanes européennes",
+          "description": [
+            "Le passage aux douanes européennes se fait à l'arrivée à Amsterdam et si je ne me trompe pas, il se fera aussi à Amsterdam pour la sortie de l'Europe lors de mon retour vers Montréal dans 2 semaines."
+          ],
+          "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
+        },
+        {
+          "type": "city",
+          "country": "nl",
+          "timeStamp": "2023-09-30T09:40:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Aperçu d'Amsterdam, NL",
+          "description": [
+            "La ville d'Amsterdam est situé aux Pays-Bas dans la province d'Hollande-du-Nord. Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 900 000 habitants. La langue parlée est principalement le néerlandais mais l'anglais reste largement utilisé dans la ville.",
+            "Elle est reconnu pour ses canaux de formes concentriques en plein centre-ville constitués de 90 îles et dont 1 700 ponts sont nécessaires pour la circulation.",
+            "La météo en octobre varie entre 7 et 15 °C et il pleut environ un jour sur 3."
+          ],
+          "location": "Amsterdam, NL",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Amsterdam"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-09-30T13:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Enregistrement à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "L'hôtel de la chaîne néerlandaise The Social Hub (anciennement The Student Hotel) est situé très près du centre-ville d'Amsterdam. Je pourrai facilement me déplacer à pied pour visiter la ville.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "The Social Hub Amsterdam City",
+          "phone": "+31 20 214 9999",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/The+Social+Hub+Amsterdam+City/@52.354514,4.9129454,15z/data=!4m11!3m10!1s0x47c60984a6355d93:0x1cdeffbd317593a5!5m4!1s2023-09-30!2i3!4m1!1i1!8m2!3d52.354514!4d4.9129454!16s%2Fg%2F1tmpv56b"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-09-30T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Première nuit à Amsterdam."
+          ],
+          "location": "The Social Hub Amsterdam City"
+        },
+        {
+          "type": "activity",
+          "country": "nl",
+          "timeStamp": "2023-10-01T08:30:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Visite de la Maison Anne Frank",
+          "description": [
+            "La Maison Anne Frank est un musée juxtaposé à la maison dans laquelle la famille d'Anne Frank s'est cachée pendant 2 ans lors de la Seconde Guerre mondiale.",
+            "C'est de cette maison qu'elle a rédigé la majorité des écrits de son journal qui fût publié quelques années après son décès par son père Otto Frank. Ce manuscrit originalement écrit en néerlandais est considéré comme le deuxième livre non fictionnel le plus lu dans le monde après la Bible."
+          ],
+          "location": "Amsterdam, NL",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Maison_Anne_Frank"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-01T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Deuxième nuit à Amsterdam."
+          ],
+          "location": "The Social Hub Amsterdam City"
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-02T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Troisième et dernière nuit à Amsterdam."
+          ],
+          "location": "The Social Hub Amsterdam City"
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-03T08:30:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Départ de l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Le départ se fait au plus tard à 12:00 le jour du départ."
+          ],
+          "location": "The Social Hub Amsterdam City"
+        },
+        {
+          "type": "train",
+          "country": "nl",
+          "timeStamp": "2023-10-03T09:49:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Départ du train vers Rotterdam, NL",
+          "description": [
+            "Le trajet se fait à bord d'un train du service Intercity Direct opéré par Nederlandse Spoorwegen avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/Voiture_ICR\" target=\"_blank\">modèle ICR</a> pouvant aller jusqu'à 160 km/h.",
+            "Le trajet reliant la Gare centrale d'Amsterdam à la Gare centrale de Rotterdam se fait sans arrêt."
+          ],
+          "brand": "nederlandse-spoorwegen",
+          "number": "IC 1034",
+          "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)",
+          "duration": 47,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/Amsterdam+Centraal,+Stationsplein,+1012+AB+Amsterdam,+Netherlands/Rotterdam+Centraal,+Rotterdam,+Netherlands/@52.1592919,4.3983499,10z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!1m5!1m1!1s0x47c434a5bc629449:0xb4834251ce273735!2m2!1d4.4700263!2d51.9242868!2m3!6e0!7e2!8j1696333740!3e3"
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "country": "nl",
+          "timeStamp": "2023-10-03T10:36:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Arrivée du train à Rotterdam, NL",
+          "description": [],
+          "brand": "nederlandse-spoorwegen",
+          "number": "IC 1034",
+          "location": "Rotterdam Centraal (Gare centrale de Rotterdam)"
+        },
+        {
+          "type": "city",
+          "country": "nl",
+          "timeStamp": "2023-10-03T10:36:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Aperçu de Rotterdam, NL",
+          "description": [
+            "La ville de Rotterdam est aussi située aux Pays-bas dans la province d'Hollande-du-Sud. Elle est la deuxième ville la plus peuplée du pays avec une population de plus de 600 000 habitants.",
+            "Elle est reconnu pour être l'une des plus grande ville portuaire au monde.",
+            "La météo ici est très similaire à celle d'Amsterdam."
+          ],
+          "location": "Rotterdam, NL",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Rotterdam"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-03T13:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Enregistrement à l'hôtel de Rotterdam, NL",
+          "description": [
+            "L'hôtel est situé au coeur de Rotterdam et je serai qu'à quelques minutes de marche pour visiter la ville.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "The James Hotel Rotterdam",
+          "phone": "+31 10 760 5070",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/The+James+Hotel+Rotterdam/@51.9211019,4.477852,15z/data=!4m11!3m10!1s0x47c43358a900aaf3:0x39b64c432e416073!5m4!1s2023-10-03!2i2!4m1!1i1!8m2!3d51.9211019!4d4.477852!16s%2Fg%2F11hbps8k55"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-03T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel de Rotterdam, NL",
+          "description": [
+            "Première nuit à Rotterdam."
+          ],
+          "location": "The James Hotel Rotterdam"
+        },
+        {
+          "type": "activity",
+          "country": "nl",
+          "timeStamp": "2023-10-04T08:30:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Visite des moulins à vents de Kinderdijk",
+          "description": [
+            "Le village de Kinderdijk situé à 15 km de Rotterdam est célèbre pour ses 19 moulins à vents typiques de la province d'Hollande-du-Sud, son plus vieux ayant été construit en 1633. Ces moulins sont utilisés pour le drainage des eaux afin de contrôler le niveau de l'eau dans cette zone à risque d'inondations.",
+            "Le site est classé au patrimoine mondial de l'humanité par l'UNESCO depuis 1997."
+          ],
+          "location": "Kinderdijk, NL",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Kinderdijk"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-04T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel de Rotterdam, NL",
+          "description": [
+            "Deuxième et dernière nuit à Rotterdam."
+          ],
+          "location": "The James Hotel Rotterdam"
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-05T05:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Départ de l'hôtel de Rotterdam, NL",
+          "description": [
+            "Le départ se fait au plus tard à 11:00 le jour du départ."
+          ],
+          "location": "The James Hotel Rotterdam"
+        },
+        {
+          "type": "train",
+          "country": "nl",
+          "timeStamp": "2023-10-05T06:35:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Départ du train vers Berlin, DE",
+          "description": [
+            "Le trajet se fait à bord d'un train du service Intercity Express opéré par NS International (Nederlandse Spoorwegen) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> pouvant aller jusqu'à 330 km/h.",
+            "Le trajet reliant la Gare centrale de Rotterdam à la Gare centrale de Berlin se fait avec une correspondance en début de parcours à Amersfoort aux Pays-Bas afin de changer de train. Le train fera 3 arrêts avant la correspondance (dont un à Utrecht) et 13 arrêts après la correspondance (dont un à Hanovre)."
+          ],
+          "brand": "ns-international",
+          "number": "ICE 629",
+          "location": "Rotterdam Centraal (Gare centrale de Rotterdam)",
+          "duration": 410,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/Rotterdam+Centraal,+Rotterdam,+Netherlands/Berlin+Central+Station,+Hauptbahnhof,+Europaplatz,+Berlin,+Germany/@51.9023311,6.2703506,7z/am=t/data=!4m19!4m18!1m5!1m1!1s0x47c434a5bc629449:0xb4834251ce273735!2m2!1d4.4700263!2d51.9242868!1m5!1m1!1s0x47a851bdfbdfe77b:0x7a3c781495bcfcaa!2m2!1d13.369402!2d52.5250839!2m3!6e0!7e2!8j1696494900!3e3!5i1"
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "country": "nl",
+          "timeStamp": "2023-10-05T07:45:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Correspondance de train à Amersfoort, NL",
+          "description": [
+            "Transfert de 13 minutes pour prendre le train vers Berlin."
+          ],
+          "brand": "ns-international",
+          "number": "ICE 629 / ICE 143",
+          "location": "Amersfoort Centraal (Gare centrale d'Amersfoort)",
+          "duration": 13
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-05T13:25:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Arrivée du train à Berlin, DE",
+          "description": [],
+          "brand": "ns-international",
+          "number": "ICE 143",
+          "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)"
+        },
+        {
+          "type": "city",
+          "country": "de",
+          "timeStamp": "2023-10-05T13:25:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Aperçu de Berlin, DE",
+          "description": [
+            "La ville de Berlin est située en Allemagne dans le land (état) de Berlin (ville-état). Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 3 600 000 d'habitants. La langue parlée est l'allemand mais l'anglais est aussi très utilisé.",
+            "Elle est reconnu pour son mur qui séparait Berlin-Ouest de Berlin-Est qui était sous le contrôle soviétique.",
+            "La météo en octobre varie entre 6 et 14 °C et il pleut relativement peu."
+          ],
+          "location": "Berlin, DE",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Berlin"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-05T14:30:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Enregistrement à l'hôtel de Berlin, DE",
+          "description": [
+            "L'hôtel Park Inn de la chaîne Radisson est situé dans le quarter Alexanderplatz, en plein centre de la ville de Berlin.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "Park Inn par Radisson Berlin Alexanderplatz",
+          "phone": "+49 30 23890",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/Park+Inn+by+Radisson+Berlin+Alexanderplatz/@52.523125,13.4127656,15z/data=!3m1!5s0x47a84e1f1bed0473:0x311512ef04dde038!4m11!3m10!1s0x47a84e1f1ee20ee1:0xad6a5dfdfd4c87a1!5m4!1s2023-10-05!2i3!4m1!1i1!8m2!3d52.523125!4d13.4127656!16zL20vMDVyeDJk"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-05T19:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Nuit à l'hôtel de Berlin, DE",
+          "description": [
+            "Première nuit à Berlin."
+          ],
+          "location": "Park Inn par Radisson Berlin Alexanderplatz"
+        },
+        {
+          "type": "activity",
+          "country": "de",
+          "timeStamp": "2023-10-06T08:30:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Visite du Mémorial du mur de Berlin",
+          "description": [
+            "Créé en 1998, le Mémorial du mur de Berlin est un monument commémoratif du mur qui a séparé la ville de Berlin pendant 28 ans. Ce mémorial extérieur comprend une section de 60 mètres du mur tel qu'il était à l'époque."
+          ],
+          "location": "Berlin, DE",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/M%C3%A9morial_du_mur_de_Berlin"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-06T19:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Nuit à l'hôtel de Berlin, DE",
+          "description": [
+            "Deuxième nuit à Berlin."
+          ],
+          "location": "Park Inn par Radisson Berlin Alexanderplatz"
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-07T19:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Nuit à l'hôtel de Berlin, DE",
+          "description": [
+            "Troisième et dernière nuit à Berlin."
+          ],
+          "location": "Park Inn par Radisson Berlin Alexanderplatz"
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-08T06:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Départ de l'hôtel de Berlin, DE",
+          "description": [
+            "Le départ se fait au plus tard à 12:00 le jour du départ."
+          ],
+          "location": "Park Inn par Radisson Berlin Alexanderplatz"
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-08T07:46:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Départ du train vers Wuppertal, DE",
+          "description": [
+            "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
+            "Le trajet reliant la Gare centrale de Berlin à la Gare centrale de Wuppertal se fait avec 7 arrêts en Allemagne dont un à Hanovre."
+          ],
+          "brand": "deutsche-bahn",
+          "number": "ICE 952",
+          "seat": "voiture 32 / siège 105",
+          "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)",
+          "duration": 232,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/Berlin+Central+Station,+Hauptbahnhof,+Europaplatz,+Berlin,+Germany/Wuppertal+Hauptbahnhof,+Wuppertal,+Germany/@51.9021471,7.6213776,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47a851bdfbdfe77b:0x7a3c781495bcfcaa!2m2!1d13.369402!2d52.5250839!1m5!1m1!1s0x47b8d64cae353013:0x264b199e3dda1816!2m2!1d7.1500665!2d51.2544759!2m3!6e0!7e2!8j1696758360!3e3"
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-08T11:38:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Arrivée du train à Wuppertal, DE",
+          "description": [],
+          "brand": "deutsche-bahn",
+          "number": "ICE 952",
+          "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)"
+        },
+        {
+          "type": "city",
+          "country": "de",
+          "timeStamp": "2023-10-08T11:38:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Aperçu de Wuppertal, DE",
+          "description": [
+            "La ville de Wuppertal est située en Allemagne dans le land (état) de Rhénanie-du-Nord-Westphalie. Elle est une ville de 350 000 habitants. La langue parlée est principalement l'allemand.",
+            "Elle est reconnu pour son train suspendu construit il y a plus d'un siècle et qui est toujours en opération pour se déplacer dans la ville.",
+            "La météo en octobre est très similaire à celle de Berlin."
+          ],
+          "location": "Wuppertal, DE",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Wuppertal"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-08T13:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Enregistrement à l'hôtel de Wuppertal, DE",
+          "description": [
+            "L'hôtel de la chaîne B&B Hotels est situé en plein coeur de la petite ville de Wuppertal. Bien que l'hôtel propose des chambres de type dortoir, j'aurai tout de même une chambre privée.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "B&B Hotel Wuppertal",
+          "phone": "+49 202 94604940",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/B%26B+HOTEL+Wuppertal/@51.2568992,7.1597494,15z/data=!4m11!3m10!1s0x47b8d7caf6d4e62b:0xa384c253ee813b14!5m4!1s2023-10-08!2i2!4m1!1i1!8m2!3d51.2568992!4d7.1597494!16s%2Fg%2F11g9mgh050"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-08T19:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Nuit à l'hôtel de Wuppertal, DE",
+          "description": [
+            "Première nuit à Wuppertal."
+          ],
+          "location": "B&B Hotel Wuppertal"
+        },
+        {
+          "type": "activity",
+          "country": "de",
+          "timeStamp": "2023-10-09T08:30:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Visite du Wuppertaler Schwebebahn (train suspendu)",
+          "description": [
+            "Le Schwebebahn est un train de type monorail suspendu dans la ville de Wuppertal utilisé comme moyen de transport en commun dans la ville tel qu'est un métro souterrain dans plusieurs villes du monde.",
+            "Il a été inauguré en 1901 et il est le plus vieux monorail au monde avec ses 20 stations sur 13.3 km. Depuis 2018, la ville de Wuppertal a conclu un accord avec la ville de Shonan au Japon afin de collaborer face à l'adoption de bonnes pratiques et à la promotion de ce mode de transport.",
+            "En 1950, une éléphante de 3 ans à son bord afin de faire la promotion d'un cirque local tombe dans la rivière Wupper sans toutefois se blesser. L'éléphante Tuffi est décédée à Paris en 1989."
+          ],
+          "location": "Wuppertal, DE",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Wuppertaler_Schwebebahn"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-09T19:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Nuit à l'hôtel de Wuppertal, DE",
+          "description": [
+            "Deuxième et dernière nuit à Wuppertal."
+          ],
+          "location": "B&B Hotel Wuppertal"
+        },
+        {
+          "type": "hotel",
+          "country": "de",
+          "timeStamp": "2023-10-10T06:00:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Départ de l'hôtel de Wuppertal, DE",
+          "description": [
+            "Le départ se fait au plus tard à 12:00 le jour du départ."
+          ],
+          "location": "B&B Hotel Wuppertal"
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-10T07:40:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Départ du train vers Köln (Cologne), DE",
+          "description": [
+            "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
+            "Le trajet reliant la Gare centrale de Wuppertal à la Gare centrale de Cologne se fait sans arrêt."
+          ],
+          "brand": "deutsche-bahn",
+          "number": "ICE 956",
+          "seat": "voiture 32 / siège 44",
+          "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)",
+          "duration": 29,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/Wuppertal+Hauptbahnhof,+Wuppertal,+Germany/K%C3%B6ln+Hauptbahnhof,+Trankgasse,+Cologne,+Germany/@51.0977688,6.8054483,11z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47b8d64cae353013:0x264b199e3dda1816!2m2!1d7.1500665!2d51.2544759!1m5!1m1!1s0x47bf25a52b498f99:0x95851446d3a4d890!2m2!1d6.9586017!2d50.9432141!2m3!6e0!7e2!8j1696930800!3e3"
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-10T08:09:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Arrivée du train à Köln (Cologne), DE",
+          "description": [],
+          "brand": "deutsche-bahn",
+          "number": "ICE 956",
+          "location": "Köln Hauptbahnhof (Gare centrale de Cologne)"
+        },
+        {
+          "type": "city",
+          "country": "de",
+          "timeStamp": "2023-10-10T08:09:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Aperçu de Köln (Cologne), DE",
+          "description": [
+            "La ville de Köln (nommé Cologne en français et en anglais) est située en Allemagne dans le land (état) de Rhénanie-du-Nord-Westphalie. Elle est la quatrième plus grande ville d'Allemagne et a environ 1 000 000 d'habitants. La langue parlée est principalement l'allemand.",
+            "Elle est reconnu pour son impressionante cathédrale de style gothique.",
+            "La météo en octobre est très similaire à celle de Berlin."
+          ],
+          "location": "Köln (Cologne), DE",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Cologne"
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "country": "de",
+          "timeStamp": "2023-10-10T10:42:00.000Z",
+          "timeZone": "Europe/Berlin",
+          "title": "Départ du train vers Paris, FR",
+          "description": [
+            "Le trajet se fait à bord d'un train de type TGV opéré par Eurostar (anciennement Thalys) en direction avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> pouvant atteindre une vitesse de 320 km/h.",
+            "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys a disparu le 1<sup>er</sup> octobre 2023 au profit de celle d'Eurostar.",
+            "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
+          ],
+          "brand": "eurostar",
+          "number": "ER 9448",
+          "seat": "voiture 28 / siège 73",
+          "location": "Köln Hauptbahnhof (Gare centrale de Cologne)",
+          "duration": 204,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/K%C3%B6ln+Hauptbahnhof,+Trankgasse,+Cologne,+Germany/Gare+de+Paris+Nord,+Rue+de+Dunkerque,+Paris,+France/@49.7223388,2.8381776,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47bf25a52b498f99:0x95851446d3a4d890!2m2!1d6.9586017!2d50.9432141!1m5!1m1!1s0x47e66e6bfc58a37f:0x4fb63768d2dd790c!2m2!1d2.3553137!2d48.8809481!2m3!6e0!7e2!8j1696941720!3e3"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "be",
+          "timeStamp": "2023-10-10T11:30:00.000Z",
+          "timeZone": "Europe/Brussels",
+          "title": "Passage sur le territoire belge",
+          "description": [],
+          "location": "Belgique"
+        },
+        {
+          "type": "train",
+          "country": "fr",
+          "timeStamp": "2023-10-10T14:06:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Arrivée du train à Paris, FR",
+          "description": [
+            "L'arrivée du train se fait à la Gare de Paris-Nord et c'est aussi de cette gare que je reprendrai le train vers Amsterdam dans 3 jours. La gare est à 15 minutes de marche de mon hôtel."
+          ],
+          "brand": "eurostar",
+          "number": "ER 9448",
+          "location": "Gare de Paris-Nord"
+        },
+        {
+          "type": "city",
+          "country": "fr",
+          "timeStamp": "2023-10-10T14:06:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Aperçu de Paris, FR",
+          "description": [
+            "La ville de Paris est situé en France dans la région Île-de-France. Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 2 000 000 d'habitants. La langue parlée est principalement le Français.",
+            "Elle est principalement reconnu pour sa Tour Eiffel, son Arc de triomphe, sa Cathédrale Notre-Dame ou son Musée du Louvre.",
+            "La météo en octobre varie entre 10 et 17 °C et il pleut relativement peu."
+          ],
+          "location": "Paris, FR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Paris"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "fr",
+          "timeStamp": "2023-10-10T14:30:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Enregistrement à l'hôtel de Paris, FR",
+          "description": [
+            "L'hôtel est situé à proximité du centre-ville de Paris, je serai donc à 30 minutes de métro ou 1 heure de marche des principales attractions à visiter. Bien que l'hôtel propose des chambres de type dortoir, j'aurai tout de même une chambre privée.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "Le Régent Montmartre par Hiphophostels",
+          "phone": "+33 1 48 78 24 00",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/Le+Regent+Montmartre/@48.8827959,2.3450615,15z/data=!4m11!3m10!1s0x47e66e424173470d:0x9c8dea180598517!5m4!1s2023-10-10!2i3!4m1!1i1!8m2!3d48.8827959!4d2.3450615!16s%2Fg%2F11bwkdmrv8"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "fr",
+          "timeStamp": "2023-10-10T19:00:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Nuit à l'hôtel de Paris, FR",
+          "description": [
+            "Première nuit à Paris."
+          ],
+          "location": "Le Régent Montmartre par Hiphophostels"
+        },
+        {
+          "type": "activity",
+          "country": "fr",
+          "timeStamp": "2023-10-11T08:30:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Visite de la Tour Eiffel",
+          "description": [
+            "Haute de 330 mètres, la Tour Eiffel a été conçue par Gustave Eiffel et ses collaborateurs et fût inaugurée le 31 mars 1989 pour l'Exposition universelle de Paris de la même année.",
+            "Elle est située à l’extrémité Nord-Ouest du Champ-de-Mars en bordure de la Seine dans le 7ème arrondissement."
+          ],
+          "location": "Paris, FR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Tour_Eiffel"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "fr",
+          "timeStamp": "2023-10-11T19:00:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Nuit à l'hôtel de Paris, FR",
+          "description": [
+            "Deuxième nuit à Paris."
+          ],
+          "location": "Le Régent Montmartre par Hiphophostels"
+        },
+        {
+          "type": "activity",
+          "country": "fr",
+          "timeStamp": "2023-10-12T08:30:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Visite de la Cathédrale Notre-Dame de Paris",
+          "description": [
+            "La Cathédrale Notre-Dame de Paris est l'un des monuments les plus connus de l'Église catholique. Elle est notamment connu pour l'oeuvre de Victor Hugo portant son nom et dont de nombreuses comédies musicales furent inspirées.",
+            "En 2019, la cathédrale a subie un incendie majeur qui a détruit sa flèche ainsi que la majorité de sa toiture. La reconstruction va bon train et la réouverture est toujours prévue pour fin 2024."
+          ],
+          "location": "Paris, FR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "fr",
+          "timeStamp": "2023-10-12T19:00:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Nuit à l'hôtel de Paris, FR",
+          "description": [
+            "Troisième et dernière nuit à Paris."
+          ],
+          "location": "Le Régent Montmartre par Hiphophostels"
+        },
+        {
+          "type": "hotel",
+          "country": "fr",
+          "timeStamp": "2023-10-13T09:00:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Départ de l'hôtel de Paris, FR",
+          "description": [
+            "Le départ se fait au plus tard à 11:00 le jour du départ."
+          ],
+          "location": "Le Régent Montmartre par Hiphophostels"
+        },
+        {
+          "type": "train",
+          "country": "fr",
+          "timeStamp": "2023-10-13T12:21:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Départ du train vers Amsterdam, NL",
+          "description": [
+            "Le trajet se fait à bord d'un autre train de type TGV opéré par Eurostar (anciennement Thalys) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
+            "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
+          ],
+          "brand": "eurostar",
+          "number": "ER 9351",
+          "seat": "voiture 17 / siège 77",
+          "location": "Gare de Paris-Nord",
+          "duration": 203,
+          "links": [
+            {
+              "title": "Voir le trajet",
+              "path": "https://www.google.ca/maps/dir/Gare+de+Paris+Nord,+Rue+de+Dunkerque,+Paris,+France/Amsterdam+Centraal,+Amsterdam+Centraal+railway+station,+Stationsplein,+Amsterdam,+Netherlands/@50.6114328,1.0207199,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47e66e6bfc58a37f:0x4fb63768d2dd790c!2m2!1d2.3553137!2d48.8809481!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!2m3!6e0!7e2!8j1697206860!3e3"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "be",
+          "timeStamp": "2023-10-13T13:00:00.000Z",
+          "timeZone": "Europe/Brussels",
+          "title": "Passage sur le territoire belge",
+          "description": [],
+          "location": "Belgique"
+        },
+        {
+          "type": "train",
+          "country": "nl",
+          "timeStamp": "2023-10-13T15:44:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Arrivée du train à Amsterdam, NL",
+          "description": [],
+          "brand": "eurostar",
+          "number": "ER 9351",
+          "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)"
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-13T16:30:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Enregistrement à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "L'hôtel de la chaîne espagnole nhow est situé à proximité du centre de congrès RAI Amsterdam dans l'arrondissement d'Amsterdam-Sud. Il est reconnu pour son architecture unique composée de 3 volumes triangulaires faisant référence au panneau de la place Europaplein situé à proximité de l'hôtel.",
+            "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
+          ],
+          "location": "nhow Amsterdam RAI",
+          "phone": "+31 20 800 3200",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.com/maps/place/nhow+Amsterdam+RAI/@52.338955,4.891906,15z/data=!4m10!3m9!1s0x47c60a2269c3e26d:0xccfd096f7c0ee3e2!5m3!1s2023-10-13!4m1!1i1!8m2!3d52.338955!4d4.891906!16s%2Fg%2F11hd0y74qr"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-13T19:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Nuit à l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Dernière nuit de mon voyage."
+          ],
+          "location": "nhow Amsterdam RAI"
+        },
+        {
+          "type": "hotel",
+          "country": "nl",
+          "timeStamp": "2023-10-14T08:30:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Départ de l'hôtel d'Amsterdam, NL",
+          "description": [
+            "Le départ se fait au plus tard à 12:00 le jour du départ."
+          ],
+          "location": "nhow Amsterdam RAI"
+        },
+        {
+          "type": "airport",
+          "country": "nl",
+          "timeStamp": "2023-10-14T09:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Arrivée à l'aéroport et enregistrement",
+          "description": [],
+          "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
+        },
+        {
+          "type": "border",
+          "country": "eu",
+          "timeStamp": "2023-10-14T11:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Passage aux douanes européennes",
+          "description": [
+            "Normalement, si je ne me trompe pas, on doit passer les douanes européennes pour sortir du territoire européen. Je devrai donc passer les douanes juste avant de prendre mon vol de retour."
+          ],
+          "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
+        },
+        {
+          "type": "flight-start",
+          "country": "nl",
+          "timeStamp": "2023-10-14T12:00:00.000Z",
+          "timeZone": "Europe/Amsterdam",
+          "title": "Décollage du vol vers Montréal, CA",
+          "description": [
+            "Mon vol de retour se fait aussi avec Air Canada en liaison directe. Selon l'historique des vols récents, il est presque toujours à l'heure."
+          ],
+          "brand": "air-canada",
+          "number": "AC 901",
+          "seat": "siège 22H",
+          "fleet": "Boeing 787",
+          "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
+          "duration": 450,
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA901/history/20231014/1210Z/EHAM/CYUL"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=901&t=20231014&o=AMS&c=AC&l=fr"
+            },
+            {
+              "title": "Site de l'aéroport",
+              "path": "https://www.schiphol.nl/en/departures/flight/D20231014AC901/"
+            }
+          ]
+        },
+        {
+          "type": "time-change",
+          "country": "other/earth",
+          "timeStamp": "2023-10-14T19:00:00.000Z",
+          "timeZone": "Atlantic/Azores",
+          "title": "Changement de fuseau horaire",
+          "description": [
+            "Passage au fuseau horaire de l'Est, heure avancée (- 6 heures)."
+          ],
+          "location": "Océan Atlantique"
+        },
+        {
+          "type": "flight-end",
+          "country": "ca",
+          "timeStamp": "2023-10-14T19:30:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Atterrissage du vol à Montréal, CA",
+          "description": [],
+          "brand": "air-canada",
+          "number": "AC 901",
+          "fleet": "Boeing 787",
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA901/history/20231014/1210Z/EHAM/CYUL"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=901&t=20231014&o=AMS&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "ca",
+          "timeStamp": "2023-10-14T21:00:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Passage aux douanes canadiennes",
+          "description": [],
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
+        },
+        {
+          "type": "home",
+          "country": "ca",
+          "timeStamp": "2023-10-14T22:15:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Retour à la maison",
+          "description": [
+            "Retour à la maison en taxi ou en Uber."
+          ],
+          "location": "Rue Saint-Christophe"
+        }
+      ],
+      "news": [
+        {
+          "timeStampStart": "2023-09-29T22:15:00.000Z",
+          "timeStampEnd": "2023-09-29T23:00:00.000Z",
+          "title": "Je suis présentement en route vers l'Aéroport Pierre-Elliott-Trudeau (YUL)"
+        },
+        {
+          "timeStampStart": "2023-09-29T23:00:00.000Z",
+          "timeStampEnd": "2023-09-30T00:30:00.000Z",
+          "title": "Je suis présentement à l'Aéroport Pierre-Elliott-Trudeau (YUL) pour l'enregistrement de mon vol et pour le contrôle de sécurité"
+        },
+        {
+          "timeStampStart": "2023-09-30T00:30:00.000Z",
+          "timeStampEnd": "2023-09-30T01:50:00.000Z",
+          "title": "Je suis présentement à l'Aéroport Pierre-Elliott-Trudeau (YUL) en attente de mon vol dans la zone des départs internationaux"
+        },
+        {
+          "timeStampStart": "2023-09-30T01:50:00.000Z",
+          "timeStampEnd": "2023-09-30T08:40:00.000Z",
+          "title": "Je suis présentement à bord du vol AC 900 d'Air Canada à destination d'Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-09-30T08:40:00.000Z",
+          "timeStampEnd": "2023-10-03T09:49:00.000Z",
+          "title": "Je suis présentement en visite à Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-03T09:49:00.000Z",
+          "timeStampEnd": "2023-10-03T10:36:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par Nederlandse Spoorwegen en direction de Rotterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-03T10:36:00.000Z",
+          "timeStampEnd": "2023-10-05T06:35:00.000Z",
+          "title": "Je suis présentement en visite à Rotterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-05T06:35:00.000Z",
+          "timeStampEnd": "2023-10-05T13:25:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par NS International en direction de Berlin, DE"
+        },
+        {
+          "timeStampStart": "2023-10-05T07:45:00.000Z",
+          "timeStampEnd": "2023-10-05T07:58:00.000Z",
+          "title": "Je suis présentement en transfert de train à Amersfoort, NL"
+        },
+        {
+          "timeStampStart": "2023-10-05T13:25:00.000Z",
+          "timeStampEnd": "2023-10-08T07:46:00.000Z",
+          "title": "Je suis présentement en visite à Berlin, DE"
+        },
+        {
+          "timeStampStart": "2023-10-08T07:46:00.000Z",
+          "timeStampEnd": "2023-10-08T11:38:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par Deutsche Bahn en direction de Wuppertal, DE"
+        },
+        {
+          "timeStampStart": "2023-10-08T11:38:00.000Z",
+          "timeStampEnd": "2023-10-10T07:40:00.000Z",
+          "title": "Je suis présentement en visite à Wuppertal, DE"
+        },
+        {
+          "timeStampStart": "2023-10-10T07:40:00.000Z",
+          "timeStampEnd": "2023-10-10T08:09:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par Deutsche Bahn en direction de Köln (Cologne), DE"
+        },
+        {
+          "timeStampStart": "2023-10-10T08:09:00.000Z",
+          "timeStampEnd": "2023-10-10T10:42:00.000Z",
+          "title": "Je suis présentement en escale à Köln (Cologne), DE"
+        },
+        {
+          "timeStampStart": "2023-10-10T10:42:00.000Z",
+          "timeStampEnd": "2023-10-10T14:06:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction de Paris, FR"
+        },
+        {
+          "timeStampStart": "2023-10-10T14:06:00.000Z",
+          "timeStampEnd": "2023-10-13T12:21:00.000Z",
+          "title": "Je suis présentement en visite à Paris, FR"
+        },
+        {
+          "timeStampStart": "2023-10-13T12:21:00.000Z",
+          "timeStampEnd": "2023-10-13T15:44:00.000Z",
+          "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction d'Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-13T15:44:00.000Z",
+          "timeStampEnd": "2023-10-14T12:00:00.000Z",
+          "title": "Je suis présentement en visite à Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-14T12:00:00.000Z",
+          "timeStampEnd": "2023-10-14T19:30:00.000Z",
+          "title": "Je suis présentement à bord du vol AC 901 d'Air Canada à destination de Montréal, CA"
+        },
+        {
+          "timeStampStart": "2023-10-14T22:15:00.000Z",
+          "timeStampEnd": "2023-10-14T23:00:00.000Z",
+          "title": "Je suis présentement en route vers la maison"
+        },
+        {
+          "timeStampStart": "2023-10-14T23:00:00.000Z",
+          "timeStampEnd": "2023-10-15T02:00:00.000Z",
+          "title": "Mon voyage est maintenant terminé, je suis de retour à la maison"
+        },
+        {
+          "timeStampStart": "2023-09-30T08:40:00.000Z",
+          "timeStampEnd": "2023-10-14T12:00:00.000Z",
+          "timeZone": "Europe/Paris",
+          "title": "Il est %time selon l'heure locale"
+        },
+        {
+          "timeStampStart": "2023-09-30T08:40:00.000Z",
+          "timeStampEnd": "2023-10-03T10:36:00.000Z",
+          "city": "Amsterdam, NL",
+          "title": "Météo indisponible pour Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-03T10:36:00.000Z",
+          "timeStampEnd": "2023-10-05T06:35:00.000Z",
+          "city": "Rotterdam, NL",
+          "title": "Météo indisponible pour Rotterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-10-05T06:35:00.000Z",
+          "timeStampEnd": "2023-10-05T13:25:00.000Z",
+          "city": "Amersfoort, NL",
+          "title": "Météo indisponible pour Amersfoort, NL"
+        },
+        {
+          "timeStampStart": "2023-10-05T13:25:00.000Z",
+          "timeStampEnd": "2023-10-08T11:38:00.000Z",
+          "city": "Berlin, DE",
+          "title": "Météo indisponible pour Berlin, DE"
+        },
+        {
+          "timeStampStart": "2023-10-08T11:38:00.000Z",
+          "timeStampEnd": "2023-10-10T07:40:00.000Z",
+          "city": "Wuppertal, DE",
+          "title": "Météo indisponible pour Wuppertal, DE"
+        },
+        {
+          "timeStampStart": "2023-10-10T07:40:00.000Z",
+          "timeStampEnd": "2023-10-10T11:30:00.000Z",
+          "city": "Köln (Cologne), DE",
+          "title": "Météo indisponible pour Köln (Cologne), DE"
+        },
+        {
+          "timeStampStart": "2023-10-10T11:30:00.000Z",
+          "timeStampEnd": "2023-10-10T14:06:00.000Z",
+          "city": "Bruxelles, BE",
+          "title": "Météo indisponible pour Bruxelles, BE"
+        },
+        {
+          "timeStampStart": "2023-10-10T14:06:00.000Z",
+          "timeStampEnd": "2023-10-13T13:00:00.000Z",
+          "city": "Paris, FR",
+          "title": "Météo indisponible pour Paris, FR"
+        },
+        {
+          "timeStampStart": "2023-10-13T13:00:00.000Z",
+          "timeStampEnd": "2023-10-13T15:44:00.000Z",
+          "city": "Bruxelles, BE",
+          "title": "Météo indisponible pour Bruxelles, BE"
+        },
+        {
+          "timeStampStart": "2023-10-13T15:44:00.000Z",
+          "timeStampEnd": "2023-10-14T12:00:00.000Z",
+          "city": "Amsterdam, NL",
+          "title": "Météo indisponible pour Amsterdam, NL"
+        },
+        {
+          "timeStampStart": "2023-09-30T08:40:00.000Z",
+          "timeStampEnd": "2023-10-03T08:30:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel The Social Hub Amsterdam City"
+        },
+        {
+          "timeStampStart": "2023-10-03T08:30:00.000Z",
+          "timeStampEnd": "2023-10-05T05:00:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel The James Hotel Rotterdam"
+        },
+        {
+          "timeStampStart": "2023-10-05T05:00:00.000Z",
+          "timeStampEnd": "2023-10-08T06:00:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel Park Inn par Radisson Berlin Alexanderplatz"
+        },
+        {
+          "timeStampStart": "2023-10-08T06:00:00.000Z",
+          "timeStampEnd": "2023-10-10T06:00:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel B&B Hotel Wuppertal"
+        },
+        {
+          "timeStampStart": "2023-10-10T06:00:00.000Z",
+          "timeStampEnd": "2023-10-13T10:00:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel Le Régent Montmartre par Hiphophostels"
+        },
+        {
+          "timeStampStart": "2023-10-13T10:00:00.000Z",
+          "timeStampEnd": "2023-10-14T08:30:00.000Z",
+          "title": "Ma prochaine nuit sera à l'hôtel nhow Amsterdam RAI"
+        },
+        {
+          "timeStampStart": "2023-10-14T08:30:00.000Z",
+          "timeStampEnd": "2023-10-15T02:00:00.000Z",
+          "title": "Ma prochaine nuit sera à la maison"
+        }
+      ]
+    }
   ],
   "links": [
     {
@@ -30,1218 +1242,12 @@
       "path": ""
     }
   ],
-  "contact": {
-    "title": "Me joindre",
-    "description": [
-      "Pendant mon voyage, je serai joignable par <strong>Messenger</strong> ou bien à un numéro de téléphone autrichien suivant : <strong>+43 678 9021914054</strong>",
-      "Je ne serai pas joignable au numéro de téléphone habituel, ni par message texte, ni par iMessage.",
-      "Je vous laisse aussi les numéros de téléphone de mes hôtels : "
-    ]
-  },
   "filters": {
     "title": "Filtrer",
     "description": [
       "Filtrer la ligne du temps pour accéder plus rapidement aux événements voulus"
     ]
   },
-  "events": [
-    {
-      "type": "home",
-      "country": "ca",
-      "timeStamp": "2023-09-29T22:15:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Départ de la maison",
-      "description": [
-        "Départ de la maison à bord du bus 747 de la STM."
-      ],
-      "brand": "stm",
-      "number": "747",
-      "location": "Rue Saint-Christophe",
-      "duration": 45
-    },
-    {
-      "type": "airport",
-      "country": "ca",
-      "timeStamp": "2023-09-29T23:00:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Arrivée à l'aéroport et enregistrement",
-      "description": [],
-      "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
-    },
-    {
-      "type": "flight-start",
-      "country": "ca",
-      "timeStamp": "2023-09-30T01:50:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Décollage du vol vers Amsterdam, NL",
-      "description": [
-        "Mon vol d'aller se fait avec Air Canada en liaison directe. Selon l'historique des vols récents, il est généralement assez à l'heure mais lorsqu'il est en retard, c'est rarement plus de 30 minutes."
-      ],
-      "brand": "air-canada",
-      "number": "AC 900",
-      "seat": "siège 27G",
-      "fleet": "Boeing 787",
-      "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
-      "duration": 410,
-      "links": [
-        {
-          "title": "Suivre sur FlightAware",
-          "path": "https://www.flightaware.com/live/flight/ACA900/history/20230930/0200Z/CYUL/EHAM"
-        },
-        {
-          "title": "Site d'Air Canada",
-          "path": "https://www.aircanada.com/flifo/flight-details?f=900&t=20230929&o=YUL&c=AC&l=fr"
-        }
-      ]
-    },
-    {
-      "type": "time-change",
-      "country": "other/earth",
-      "timeStamp": "2023-09-30T08:10:00.000Z",
-      "timeZone": "Atlantic/Azores",
-      "title": "Changement de fuseau horaire",
-      "description": [
-        "Passage au fuseau horaire d'Europe centrale, heure avancée (+ 6 heures).",
-        "Pendant toute la durée de mon voyage, je resterai dans ce fuseau horaire qui couvre tous les pays d'Europe centrale."
-      ],
-      "location": "Océan Atlantique"
-    },
-    {
-      "type": "flight-end",
-      "country": "nl",
-      "timeStamp": "2023-09-30T08:40:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Atterrissage du vol à Amsterdam, NL",
-      "description": [],
-      "brand": "air-canada",
-      "number": "AC 900",
-      "fleet": "Boeing 787",
-      "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
-      "links": [
-        {
-          "title": "Suivre sur FlightAware",
-          "path": "https://www.flightaware.com/live/flight/ACA900/history/20230930/0200Z/CYUL/EHAM"
-        },
-        {
-          "title": "Site d'Air Canada",
-          "path": "https://www.aircanada.com/flifo/flight-details?f=900&t=20230929&o=YUL&c=AC&l=fr"
-        },
-        {
-          "title": "Site de l'aéroport",
-          "path": "https://www.schiphol.nl/en/arrivals/flight/A20230930AC900/"
-        }
-      ]
-    },
-    {
-      "type": "border",
-      "country": "eu",
-      "timeStamp": "2023-09-30T09:40:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Passage aux douanes européennes",
-      "description": [
-        "Le passage aux douanes européennes se fait à l'arrivée à Amsterdam et si je ne me trompe pas, il se fera aussi à Amsterdam pour la sortie de l'Europe lors de mon retour vers Montréal dans 2 semaines."
-      ],
-      "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
-    },
-    {
-      "type": "city",
-      "country": "nl",
-      "timeStamp": "2023-09-30T09:40:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Aperçu d'Amsterdam, NL",
-      "description": [
-        "La ville d'Amsterdam est situé aux Pays-Bas dans la province d'Hollande-du-Nord. Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 900 000 habitants. La langue parlée est principalement le néerlandais mais l'anglais reste largement utilisé dans la ville.",
-        "Elle est reconnu pour ses canaux de formes concentriques en plein centre-ville constitués de 90 îles et dont 1 700 ponts sont nécessaires pour la circulation.",
-        "La météo en octobre varie entre 7 et 15 °C et il pleut environ un jour sur 3."
-      ],
-      "location": "Amsterdam, NL",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Amsterdam"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-09-30T13:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Enregistrement à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "L'hôtel de la chaîne néerlandaise The Social Hub (anciennement The Student Hotel) est situé très près du centre-ville d'Amsterdam. Je pourrai facilement me déplacer à pied pour visiter la ville.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "The Social Hub Amsterdam City",
-      "phone": "+31 20 214 9999",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/The+Social+Hub+Amsterdam+City/@52.354514,4.9129454,15z/data=!4m11!3m10!1s0x47c60984a6355d93:0x1cdeffbd317593a5!5m4!1s2023-09-30!2i3!4m1!1i1!8m2!3d52.354514!4d4.9129454!16s%2Fg%2F1tmpv56b"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-09-30T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Première nuit à Amsterdam."
-      ],
-      "location": "The Social Hub Amsterdam City"
-    },
-    {
-      "type": "activity",
-      "country": "nl",
-      "timeStamp": "2023-10-01T08:30:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Visite de la Maison Anne Frank",
-      "description": [
-        "La Maison Anne Frank est un musée juxtaposé à la maison dans laquelle la famille d'Anne Frank s'est cachée pendant 2 ans lors de la Seconde Guerre mondiale.",
-        "C'est de cette maison qu'elle a rédigé la majorité des écrits de son journal qui fût publié quelques années après son décès par son père Otto Frank. Ce manuscrit originalement écrit en néerlandais est considéré comme le deuxième livre non fictionnel le plus lu dans le monde après la Bible."
-      ],
-      "location": "Amsterdam, NL",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Maison_Anne_Frank"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-01T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Deuxième nuit à Amsterdam."
-      ],
-      "location": "The Social Hub Amsterdam City"
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-02T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Troisième et dernière nuit à Amsterdam."
-      ],
-      "location": "The Social Hub Amsterdam City"
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-03T08:30:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Départ de l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Le départ se fait au plus tard à 12:00 le jour du départ."
-      ],
-      "location": "The Social Hub Amsterdam City"
-    },
-    {
-      "type": "train",
-      "country": "nl",
-      "timeStamp": "2023-10-03T09:49:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Départ du train vers Rotterdam, NL",
-      "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Direct opéré par Nederlandse Spoorwegen avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/Voiture_ICR\" target=\"_blank\">modèle ICR</a> pouvant aller jusqu'à 160 km/h.",
-        "Le trajet reliant la Gare centrale d'Amsterdam à la Gare centrale de Rotterdam se fait sans arrêt."
-      ],
-      "brand": "nederlandse-spoorwegen",
-      "number": "IC 1034",
-      "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)",
-      "duration": 47,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/Amsterdam+Centraal,+Stationsplein,+1012+AB+Amsterdam,+Netherlands/Rotterdam+Centraal,+Rotterdam,+Netherlands/@52.1592919,4.3983499,10z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!1m5!1m1!1s0x47c434a5bc629449:0xb4834251ce273735!2m2!1d4.4700263!2d51.9242868!2m3!6e0!7e2!8j1696333740!3e3"
-        }
-      ]
-    },
-    {
-      "type": "train",
-      "country": "nl",
-      "timeStamp": "2023-10-03T10:36:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Arrivée du train à Rotterdam, NL",
-      "description": [],
-      "brand": "nederlandse-spoorwegen",
-      "number": "IC 1034",
-      "location": "Rotterdam Centraal (Gare centrale de Rotterdam)"
-    },
-    {
-      "type": "city",
-      "country": "nl",
-      "timeStamp": "2023-10-03T10:36:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Aperçu de Rotterdam, NL",
-      "description": [
-        "La ville de Rotterdam est aussi située aux Pays-bas dans la province d'Hollande-du-Sud. Elle est la deuxième ville la plus peuplée du pays avec une population de plus de 600 000 habitants.",
-        "Elle est reconnu pour être l'une des plus grande ville portuaire au monde.",
-        "La météo ici est très similaire à celle d'Amsterdam."
-      ],
-      "location": "Rotterdam, NL",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Rotterdam"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-03T13:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Enregistrement à l'hôtel de Rotterdam, NL",
-      "description": [
-        "L'hôtel est situé au coeur de Rotterdam et je serai qu'à quelques minutes de marche pour visiter la ville.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "The James Hotel Rotterdam",
-      "phone": "+31 10 760 5070",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/The+James+Hotel+Rotterdam/@51.9211019,4.477852,15z/data=!4m11!3m10!1s0x47c43358a900aaf3:0x39b64c432e416073!5m4!1s2023-10-03!2i2!4m1!1i1!8m2!3d51.9211019!4d4.477852!16s%2Fg%2F11hbps8k55"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-03T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel de Rotterdam, NL",
-      "description": [
-        "Première nuit à Rotterdam."
-      ],
-      "location": "The James Hotel Rotterdam"
-    },
-    {
-      "type": "activity",
-      "country": "nl",
-      "timeStamp": "2023-10-04T08:30:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Visite des moulins à vents de Kinderdijk",
-      "description": [
-        "Le village de Kinderdijk situé à 15 km de Rotterdam est célèbre pour ses 19 moulins à vents typiques de la province d'Hollande-du-Sud, son plus vieux ayant été construit en 1633. Ces moulins sont utilisés pour le drainage des eaux afin de contrôler le niveau de l'eau dans cette zone à risque d'inondations.",
-        "Le site est classé au patrimoine mondial de l'humanité par l'UNESCO depuis 1997."
-      ],
-      "location": "Kinderdijk, NL",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Kinderdijk"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-04T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel de Rotterdam, NL",
-      "description": [
-        "Deuxième et dernière nuit à Rotterdam."
-      ],
-      "location": "The James Hotel Rotterdam"
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-05T05:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Départ de l'hôtel de Rotterdam, NL",
-      "description": [
-        "Le départ se fait au plus tard à 11:00 le jour du départ."
-      ],
-      "location": "The James Hotel Rotterdam"
-    },
-    {
-      "type": "train",
-      "country": "nl",
-      "timeStamp": "2023-10-05T06:35:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Départ du train vers Berlin, DE",
-      "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par NS International (Nederlandse Spoorwegen) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> pouvant aller jusqu'à 330 km/h.",
-        "Le trajet reliant la Gare centrale de Rotterdam à la Gare centrale de Berlin se fait avec une correspondance en début de parcours à Amersfoort aux Pays-Bas afin de changer de train. Le train fera 3 arrêts avant la correspondance (dont un à Utrecht) et 13 arrêts après la correspondance (dont un à Hanovre)."
-      ],
-      "brand": "ns-international",
-      "number": "ICE 629",
-      "location": "Rotterdam Centraal (Gare centrale de Rotterdam)",
-      "duration": 410,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/Rotterdam+Centraal,+Rotterdam,+Netherlands/Berlin+Central+Station,+Hauptbahnhof,+Europaplatz,+Berlin,+Germany/@51.9023311,6.2703506,7z/am=t/data=!4m19!4m18!1m5!1m1!1s0x47c434a5bc629449:0xb4834251ce273735!2m2!1d4.4700263!2d51.9242868!1m5!1m1!1s0x47a851bdfbdfe77b:0x7a3c781495bcfcaa!2m2!1d13.369402!2d52.5250839!2m3!6e0!7e2!8j1696494900!3e3!5i1"
-        }
-      ]
-    },
-    {
-      "type": "train",
-      "country": "nl",
-      "timeStamp": "2023-10-05T07:45:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Correspondance de train à Amersfoort, NL",
-      "description": [
-        "Transfert de 13 minutes pour prendre le train vers Berlin."
-      ],
-      "brand": "ns-international",
-      "number": "ICE 629 / ICE 143",
-      "location": "Amersfoort Centraal (Gare centrale d'Amersfoort)",
-      "duration": 13
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-05T13:25:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Arrivée du train à Berlin, DE",
-      "description": [],
-      "brand": "ns-international",
-      "number": "ICE 143",
-      "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)"
-    },
-    {
-      "type": "city",
-      "country": "de",
-      "timeStamp": "2023-10-05T13:25:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Aperçu de Berlin, DE",
-      "description": [
-        "La ville de Berlin est située en Allemagne dans le land (état) de Berlin (ville-état). Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 3 600 000 d'habitants. La langue parlée est l'allemand mais l'anglais est aussi très utilisé.",
-        "Elle est reconnu pour son mur qui séparait Berlin-Ouest de Berlin-Est qui était sous le contrôle soviétique.",
-        "La météo en octobre varie entre 6 et 14 °C et il pleut relativement peu."
-      ],
-      "location": "Berlin, DE",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Berlin"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-05T14:30:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Enregistrement à l'hôtel de Berlin, DE",
-      "description": [
-        "L'hôtel Park Inn de la chaîne Radisson est situé dans le quarter Alexanderplatz, en plein centre de la ville de Berlin.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "Park Inn par Radisson Berlin Alexanderplatz",
-      "phone": "+49 30 23890",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/Park+Inn+by+Radisson+Berlin+Alexanderplatz/@52.523125,13.4127656,15z/data=!3m1!5s0x47a84e1f1bed0473:0x311512ef04dde038!4m11!3m10!1s0x47a84e1f1ee20ee1:0xad6a5dfdfd4c87a1!5m4!1s2023-10-05!2i3!4m1!1i1!8m2!3d52.523125!4d13.4127656!16zL20vMDVyeDJk"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-05T19:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Nuit à l'hôtel de Berlin, DE",
-      "description": [
-        "Première nuit à Berlin."
-      ],
-      "location": "Park Inn par Radisson Berlin Alexanderplatz"
-    },
-    {
-      "type": "activity",
-      "country": "de",
-      "timeStamp": "2023-10-06T08:30:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Visite du Mémorial du mur de Berlin",
-      "description": [
-        "Créé en 1998, le Mémorial du mur de Berlin est un monument commémoratif du mur qui a séparé la ville de Berlin pendant 28 ans. Ce mémorial extérieur comprend une section de 60 mètres du mur tel qu'il était à l'époque."
-      ],
-      "location": "Berlin, DE",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/M%C3%A9morial_du_mur_de_Berlin"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-06T19:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Nuit à l'hôtel de Berlin, DE",
-      "description": [
-        "Deuxième nuit à Berlin."
-      ],
-      "location": "Park Inn par Radisson Berlin Alexanderplatz"
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-07T19:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Nuit à l'hôtel de Berlin, DE",
-      "description": [
-        "Troisième et dernière nuit à Berlin."
-      ],
-      "location": "Park Inn par Radisson Berlin Alexanderplatz"
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-08T06:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Départ de l'hôtel de Berlin, DE",
-      "description": [
-        "Le départ se fait au plus tard à 12:00 le jour du départ."
-      ],
-      "location": "Park Inn par Radisson Berlin Alexanderplatz"
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-08T07:46:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Départ du train vers Wuppertal, DE",
-      "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
-        "Le trajet reliant la Gare centrale de Berlin à la Gare centrale de Wuppertal se fait avec 7 arrêts en Allemagne dont un à Hanovre."
-      ],
-      "brand": "deutsche-bahn",
-      "number": "ICE 952",
-      "seat": "voiture 32 / siège 105",
-      "location": "Berlin Hauptbahnhof (Gare centrale de Berlin)",
-      "duration": 232,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/Berlin+Central+Station,+Hauptbahnhof,+Europaplatz,+Berlin,+Germany/Wuppertal+Hauptbahnhof,+Wuppertal,+Germany/@51.9021471,7.6213776,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47a851bdfbdfe77b:0x7a3c781495bcfcaa!2m2!1d13.369402!2d52.5250839!1m5!1m1!1s0x47b8d64cae353013:0x264b199e3dda1816!2m2!1d7.1500665!2d51.2544759!2m3!6e0!7e2!8j1696758360!3e3"
-        }
-      ]
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-08T11:38:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Arrivée du train à Wuppertal, DE",
-      "description": [],
-      "brand": "deutsche-bahn",
-      "number": "ICE 952",
-      "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)"
-    },
-    {
-      "type": "city",
-      "country": "de",
-      "timeStamp": "2023-10-08T11:38:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Aperçu de Wuppertal, DE",
-      "description": [
-        "La ville de Wuppertal est située en Allemagne dans le land (état) de Rhénanie-du-Nord-Westphalie. Elle est une ville de 350 000 habitants. La langue parlée est principalement l'allemand.",
-        "Elle est reconnu pour son train suspendu construit il y a plus d'un siècle et qui est toujours en opération pour se déplacer dans la ville.",
-        "La météo en octobre est très similaire à celle de Berlin."
-      ],
-      "location": "Wuppertal, DE",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Wuppertal"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-08T13:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Enregistrement à l'hôtel de Wuppertal, DE",
-      "description": [
-        "L'hôtel de la chaîne B&B Hotels est situé en plein coeur de la petite ville de Wuppertal. Bien que l'hôtel propose des chambres de type dortoir, j'aurai tout de même une chambre privée.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "B&B Hotel Wuppertal",
-      "phone": "+49 202 94604940",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/B%26B+HOTEL+Wuppertal/@51.2568992,7.1597494,15z/data=!4m11!3m10!1s0x47b8d7caf6d4e62b:0xa384c253ee813b14!5m4!1s2023-10-08!2i2!4m1!1i1!8m2!3d51.2568992!4d7.1597494!16s%2Fg%2F11g9mgh050"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-08T19:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Nuit à l'hôtel de Wuppertal, DE",
-      "description": [
-        "Première nuit à Wuppertal."
-      ],
-      "location": "B&B Hotel Wuppertal"
-    },
-    {
-      "type": "activity",
-      "country": "de",
-      "timeStamp": "2023-10-09T08:30:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Visite du Wuppertaler Schwebebahn (train suspendu)",
-      "description": [
-        "Le Schwebebahn est un train de type monorail suspendu dans la ville de Wuppertal utilisé comme moyen de transport en commun dans la ville tel qu'est un métro souterrain dans plusieurs villes du monde.",
-        "Il a été inauguré en 1901 et il est le plus vieux monorail au monde avec ses 20 stations sur 13.3 km. Depuis 2018, la ville de Wuppertal a conclu un accord avec la ville de Shonan au Japon afin de collaborer face à l'adoption de bonnes pratiques et à la promotion de ce mode de transport.",
-        "En 1950, une éléphante de 3 ans à son bord afin de faire la promotion d'un cirque local tombe dans la rivière Wupper sans toutefois se blesser. L'éléphante Tuffi est décédée à Paris en 1989."
-      ],
-      "location": "Wuppertal, DE",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Wuppertaler_Schwebebahn"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-09T19:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Nuit à l'hôtel de Wuppertal, DE",
-      "description": [
-        "Deuxième et dernière nuit à Wuppertal."
-      ],
-      "location": "B&B Hotel Wuppertal"
-    },
-    {
-      "type": "hotel",
-      "country": "de",
-      "timeStamp": "2023-10-10T06:00:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Départ de l'hôtel de Wuppertal, DE",
-      "description": [
-        "Le départ se fait au plus tard à 12:00 le jour du départ."
-      ],
-      "location": "B&B Hotel Wuppertal"
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-10T07:40:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Départ du train vers Köln (Cologne), DE",
-      "description": [
-        "Le trajet se fait à bord d'un train du service Intercity Express opéré par Deutsche Bahn avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/ICE_3\" target=\"_blank\">modèle ICE 3</a> ou du <a href=\"https://fr.wikipedia.org/wiki/DB_407\" target=\"_blank\">modèle ICE 3neo</a> pouvant aller jusqu'à 330 km/h.",
-        "Le trajet reliant la Gare centrale de Wuppertal à la Gare centrale de Cologne se fait sans arrêt."
-      ],
-      "brand": "deutsche-bahn",
-      "number": "ICE 956",
-      "seat": "voiture 32 / siège 44",
-      "location": "Wuppertal Hauptbahnhof (Gare centrale de Wuppertal)",
-      "duration": 29,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/Wuppertal+Hauptbahnhof,+Wuppertal,+Germany/K%C3%B6ln+Hauptbahnhof,+Trankgasse,+Cologne,+Germany/@51.0977688,6.8054483,11z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47b8d64cae353013:0x264b199e3dda1816!2m2!1d7.1500665!2d51.2544759!1m5!1m1!1s0x47bf25a52b498f99:0x95851446d3a4d890!2m2!1d6.9586017!2d50.9432141!2m3!6e0!7e2!8j1696930800!3e3"
-        }
-      ]
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-10T08:09:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Arrivée du train à Köln (Cologne), DE",
-      "description": [],
-      "brand": "deutsche-bahn",
-      "number": "ICE 956",
-      "location": "Köln Hauptbahnhof (Gare centrale de Cologne)"
-    },
-    {
-      "type": "city",
-      "country": "de",
-      "timeStamp": "2023-10-10T08:09:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Aperçu de Köln (Cologne), DE",
-      "description": [
-        "La ville de Köln (nommé Cologne en français et en anglais) est située en Allemagne dans le land (état) de Rhénanie-du-Nord-Westphalie. Elle est la quatrième plus grande ville d'Allemagne et a environ 1 000 000 d'habitants. La langue parlée est principalement l'allemand.",
-        "Elle est reconnu pour son impressionante cathédrale de style gothique.",
-        "La météo en octobre est très similaire à celle de Berlin."
-      ],
-      "location": "Köln (Cologne), DE",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Cologne"
-        }
-      ]
-    },
-    {
-      "type": "train",
-      "country": "de",
-      "timeStamp": "2023-10-10T10:42:00.000Z",
-      "timeZone": "Europe/Berlin",
-      "title": "Départ du train vers Paris, FR",
-      "description": [
-        "Le trajet se fait à bord d'un train de type TGV opéré par Eurostar (anciennement Thalys) en direction avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> pouvant atteindre une vitesse de 320 km/h.",
-        "Cette compagnie fait maintenant partie d'Eurostar Group et la marque Thalys a disparu le 1<sup>er</sup> octobre 2023 au profit de celle d'Eurostar.",
-        "Je me rend jusqu'au dernier arrêt et j'aurai en chemin un arrêt en Allemagne (Aix-la-Chapelle) et deux en Belgique (Liège et Bruxelles) avant d'arriver à Gare de Paris-Nord."
-      ],
-      "brand": "eurostar",
-      "number": "ER 9448",
-      "seat": "voiture 28 / siège 73",
-      "location": "Köln Hauptbahnhof (Gare centrale de Cologne)",
-      "duration": 204,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/K%C3%B6ln+Hauptbahnhof,+Trankgasse,+Cologne,+Germany/Gare+de+Paris+Nord,+Rue+de+Dunkerque,+Paris,+France/@49.7223388,2.8381776,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47bf25a52b498f99:0x95851446d3a4d890!2m2!1d6.9586017!2d50.9432141!1m5!1m1!1s0x47e66e6bfc58a37f:0x4fb63768d2dd790c!2m2!1d2.3553137!2d48.8809481!2m3!6e0!7e2!8j1696941720!3e3"
-        }
-      ]
-    },
-    {
-      "type": "border",
-      "country": "be",
-      "timeStamp": "2023-10-10T11:30:00.000Z",
-      "timeZone": "Europe/Brussels",
-      "title": "Passage sur le territoire belge",
-      "description": [],
-      "location": "Belgique"
-    },
-    {
-      "type": "train",
-      "country": "fr",
-      "timeStamp": "2023-10-10T14:06:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Arrivée du train à Paris, FR",
-      "description": [
-        "L'arrivée du train se fait à la Gare de Paris-Nord et c'est aussi de cette gare que je reprendrai le train vers Amsterdam dans 3 jours. La gare est à 15 minutes de marche de mon hôtel."
-      ],
-      "brand": "eurostar",
-      "number": "ER 9448",
-      "location": "Gare de Paris-Nord"
-    },
-    {
-      "type": "city",
-      "country": "fr",
-      "timeStamp": "2023-10-10T14:06:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Aperçu de Paris, FR",
-      "description": [
-        "La ville de Paris est situé en France dans la région Île-de-France. Elle est la capitale et la plus grande ville du pays avec une population d'un peu plus de 2 000 000 d'habitants. La langue parlée est principalement le Français.",
-        "Elle est principalement reconnu pour sa Tour Eiffel, son Arc de triomphe, sa Cathédrale Notre-Dame ou son Musée du Louvre.",
-        "La météo en octobre varie entre 10 et 17 °C et il pleut relativement peu."
-      ],
-      "location": "Paris, FR",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Paris"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "fr",
-      "timeStamp": "2023-10-10T14:30:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Enregistrement à l'hôtel de Paris, FR",
-      "description": [
-        "L'hôtel est situé à proximité du centre-ville de Paris, je serai donc à 30 minutes de métro ou 1 heure de marche des principales attractions à visiter. Bien que l'hôtel propose des chambres de type dortoir, j'aurai tout de même une chambre privée.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "Le Régent Montmartre par Hiphophostels",
-      "phone": "+33 1 48 78 24 00",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/Le+Regent+Montmartre/@48.8827959,2.3450615,15z/data=!4m11!3m10!1s0x47e66e424173470d:0x9c8dea180598517!5m4!1s2023-10-10!2i3!4m1!1i1!8m2!3d48.8827959!4d2.3450615!16s%2Fg%2F11bwkdmrv8"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "fr",
-      "timeStamp": "2023-10-10T19:00:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Nuit à l'hôtel de Paris, FR",
-      "description": [
-        "Première nuit à Paris."
-      ],
-      "location": "Le Régent Montmartre par Hiphophostels"
-    },
-    {
-      "type": "activity",
-      "country": "fr",
-      "timeStamp": "2023-10-11T08:30:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Visite de la Tour Eiffel",
-      "description": [
-        "Haute de 330 mètres, la Tour Eiffel a été conçue par Gustave Eiffel et ses collaborateurs et fût inaugurée le 31 mars 1989 pour l'Exposition universelle de Paris de la même année.",
-        "Elle est située à l’extrémité Nord-Ouest du Champ-de-Mars en bordure de la Seine dans le 7ème arrondissement."
-      ],
-      "location": "Paris, FR",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Tour_Eiffel"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "fr",
-      "timeStamp": "2023-10-11T19:00:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Nuit à l'hôtel de Paris, FR",
-      "description": [
-        "Deuxième nuit à Paris."
-      ],
-      "location": "Le Régent Montmartre par Hiphophostels"
-    },
-    {
-      "type": "activity",
-      "country": "fr",
-      "timeStamp": "2023-10-12T08:30:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Visite de la Cathédrale Notre-Dame de Paris",
-      "description": [
-        "La Cathédrale Notre-Dame de Paris est l'un des monuments les plus connus de l'Église catholique. Elle est notamment connu pour l'oeuvre de Victor Hugo portant son nom et dont de nombreuses comédies musicales furent inspirées.",
-        "En 2019, la cathédrale a subie un incendie majeur qui a détruit sa flèche ainsi que la majorité de sa toiture. La reconstruction va bon train et la réouverture est toujours prévue pour fin 2024."
-      ],
-      "location": "Paris, FR",
-      "links": [
-        {
-          "title": "Voir sur Wikipédia",
-          "path": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "fr",
-      "timeStamp": "2023-10-12T19:00:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Nuit à l'hôtel de Paris, FR",
-      "description": [
-        "Troisième et dernière nuit à Paris."
-      ],
-      "location": "Le Régent Montmartre par Hiphophostels"
-    },
-    {
-      "type": "hotel",
-      "country": "fr",
-      "timeStamp": "2023-10-13T09:00:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Départ de l'hôtel de Paris, FR",
-      "description": [
-        "Le départ se fait au plus tard à 11:00 le jour du départ."
-      ],
-      "location": "Le Régent Montmartre par Hiphophostels"
-    },
-    {
-      "type": "train",
-      "country": "fr",
-      "timeStamp": "2023-10-13T12:21:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Départ du train vers Amsterdam, NL",
-      "description": [
-        "Le trajet se fait à bord d'un autre train de type TGV opéré par Eurostar (anciennement Thalys) avec une rame de train électrique du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBKA\" target=\"_blank\">modèle TGV PBKA</a> ou du <a href=\"https://fr.wikipedia.org/wiki/TGV_PBA\" target=\"_blank\">modèle TGV PBA</a>, toutes les deux pouvant atteindre une vitesse de 320 km/h.",
-        "Je me rend jusqu'au dernier arrêt et j'aurai en chemin deux arrêts en Belgique (Bruxelles et Anvers) et deux aux Pays-Bas (Rotterdam et Aéroport d'Amsterdam-Schiphol) avant d'arriver à la Gare centrale d'Amsterdam."
-      ],
-      "brand": "eurostar",
-      "number": "ER 9351",
-      "seat": "voiture 17 / siège 77",
-      "location": "Gare de Paris-Nord",
-      "duration": 203,
-      "links": [
-        {
-          "title": "Voir le trajet",
-          "path": "https://www.google.ca/maps/dir/Gare+de+Paris+Nord,+Rue+de+Dunkerque,+Paris,+France/Amsterdam+Centraal,+Amsterdam+Centraal+railway+station,+Stationsplein,+Amsterdam,+Netherlands/@50.6114328,1.0207199,7z/am=t/data=!4m18!4m17!1m5!1m1!1s0x47e66e6bfc58a37f:0x4fb63768d2dd790c!2m2!1d2.3553137!2d48.8809481!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!2m3!6e0!7e2!8j1697206860!3e3"
-        }
-      ]
-    },
-    {
-      "type": "border",
-      "country": "be",
-      "timeStamp": "2023-10-13T13:00:00.000Z",
-      "timeZone": "Europe/Brussels",
-      "title": "Passage sur le territoire belge",
-      "description": [],
-      "location": "Belgique"
-    },
-    {
-      "type": "train",
-      "country": "nl",
-      "timeStamp": "2023-10-13T15:44:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Arrivée du train à Amsterdam, NL",
-      "description": [],
-      "brand": "eurostar",
-      "number": "ER 9351",
-      "location": "Amsterdam Centraal (Gare centrale d'Amsterdam)"
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-13T16:30:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Enregistrement à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "L'hôtel de la chaîne espagnole nhow est situé à proximité du centre de congrès RAI Amsterdam dans l'arrondissement d'Amsterdam-Sud. Il est reconnu pour son architecture unique composée de 3 volumes triangulaires faisant référence au panneau de la place Europaplein situé à proximité de l'hôtel.",
-        "L'enregistrement peut se faire à partir de 15:00 le jour d'arrivée."
-      ],
-      "location": "nhow Amsterdam RAI",
-      "phone": "+31 20 800 3200",
-      "links": [
-        {
-          "title": "Voir les coordonnées",
-          "path": "https://www.google.com/maps/place/nhow+Amsterdam+RAI/@52.338955,4.891906,15z/data=!4m10!3m9!1s0x47c60a2269c3e26d:0xccfd096f7c0ee3e2!5m3!1s2023-10-13!4m1!1i1!8m2!3d52.338955!4d4.891906!16s%2Fg%2F11hd0y74qr"
-        }
-      ]
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-13T19:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Nuit à l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Dernière nuit de mon voyage."
-      ],
-      "location": "nhow Amsterdam RAI"
-    },
-    {
-      "type": "hotel",
-      "country": "nl",
-      "timeStamp": "2023-10-14T08:30:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Départ de l'hôtel d'Amsterdam, NL",
-      "description": [
-        "Le départ se fait au plus tard à 12:00 le jour du départ."
-      ],
-      "location": "nhow Amsterdam RAI"
-    },
-    {
-      "type": "airport",
-      "country": "nl",
-      "timeStamp": "2023-10-14T09:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Arrivée à l'aéroport et enregistrement",
-      "description": [],
-      "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
-    },
-    {
-      "type": "border",
-      "country": "eu",
-      "timeStamp": "2023-10-14T11:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Passage aux douanes européennes",
-      "description": [
-        "Normalement, si je ne me trompe pas, on doit passer les douanes européennes pour sortir du territoire européen. Je devrai donc passer les douanes juste avant de prendre mon vol de retour."
-      ],
-      "location": "Aéroport d'Amsterdam-Schiphol (AMS)"
-    },
-    {
-      "type": "flight-start",
-      "country": "nl",
-      "timeStamp": "2023-10-14T12:00:00.000Z",
-      "timeZone": "Europe/Amsterdam",
-      "title": "Décollage du vol vers Montréal, CA",
-      "description": [
-        "Mon vol de retour se fait aussi avec Air Canada en liaison directe. Selon l'historique des vols récents, il est presque toujours à l'heure."
-      ],
-      "brand": "air-canada",
-      "number": "AC 901",
-      "seat": "siège 22H",
-      "fleet": "Boeing 787",
-      "location": "Aéroport d'Amsterdam-Schiphol (AMS)",
-      "duration": 450,
-      "links": [
-        {
-          "title": "Suivre sur FlightAware",
-          "path": "https://www.flightaware.com/live/flight/ACA901/history/20231014/1210Z/EHAM/CYUL"
-        },
-        {
-          "title": "Site d'Air Canada",
-          "path": "https://www.aircanada.com/flifo/flight-details?f=901&t=20231014&o=AMS&c=AC&l=fr"
-        },
-        {
-          "title": "Site de l'aéroport",
-          "path": "https://www.schiphol.nl/en/departures/flight/D20231014AC901/"
-        }
-      ]
-    },
-    {
-      "type": "time-change",
-      "country": "other/earth",
-      "timeStamp": "2023-10-14T19:00:00.000Z",
-      "timeZone": "Atlantic/Azores",
-      "title": "Changement de fuseau horaire",
-      "description": [
-        "Passage au fuseau horaire de l'Est, heure avancée (- 6 heures)."
-      ],
-      "location": "Océan Atlantique"
-    },
-    {
-      "type": "flight-end",
-      "country": "ca",
-      "timeStamp": "2023-10-14T19:30:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Atterrissage du vol à Montréal, CA",
-      "description": [],
-      "brand": "air-canada",
-      "number": "AC 901",
-      "fleet": "Boeing 787",
-      "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
-      "links": [
-        {
-          "title": "Suivre sur FlightAware",
-          "path": "https://www.flightaware.com/live/flight/ACA901/history/20231014/1210Z/EHAM/CYUL"
-        },
-        {
-          "title": "Site d'Air Canada",
-          "path": "https://www.aircanada.com/flifo/flight-details?f=901&t=20231014&o=AMS&c=AC&l=fr"
-        }
-      ]
-    },
-    {
-      "type": "border",
-      "country": "ca",
-      "timeStamp": "2023-10-14T21:00:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Passage aux douanes canadiennes",
-      "description": [],
-      "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
-    },
-    {
-      "type": "home",
-      "country": "ca",
-      "timeStamp": "2023-10-14T22:15:00.000Z",
-      "timeZone": "America/Montreal",
-      "title": "Retour à la maison",
-      "description": [
-        "Retour à la maison en taxi ou en Uber."
-      ],
-      "location": "Rue Saint-Christophe"
-    }
-  ],
-  "news": [
-    {
-      "timeStampStart": "2023-09-29T22:15:00.000Z",
-      "timeStampEnd": "2023-09-29T23:00:00.000Z",
-      "title": "Je suis présentement en route vers l'Aéroport Pierre-Elliott-Trudeau (YUL)"
-    },
-    {
-      "timeStampStart": "2023-09-29T23:00:00.000Z",
-      "timeStampEnd": "2023-09-30T00:30:00.000Z",
-      "title": "Je suis présentement à l'Aéroport Pierre-Elliott-Trudeau (YUL) pour l'enregistrement de mon vol et pour le contrôle de sécurité"
-    },
-    {
-      "timeStampStart": "2023-09-30T00:30:00.000Z",
-      "timeStampEnd": "2023-09-30T01:50:00.000Z",
-      "title": "Je suis présentement à l'Aéroport Pierre-Elliott-Trudeau (YUL) en attente de mon vol dans la zone des départs internationaux"
-    },
-    {
-      "timeStampStart": "2023-09-30T01:50:00.000Z",
-      "timeStampEnd": "2023-09-30T08:40:00.000Z",
-      "title": "Je suis présentement à bord du vol AC 900 d'Air Canada à destination d'Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-09-30T08:40:00.000Z",
-      "timeStampEnd": "2023-10-03T09:49:00.000Z",
-      "title": "Je suis présentement en visite à Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-03T09:49:00.000Z",
-      "timeStampEnd": "2023-10-03T10:36:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Nederlandse Spoorwegen en direction de Rotterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-03T10:36:00.000Z",
-      "timeStampEnd": "2023-10-05T06:35:00.000Z",
-      "title": "Je suis présentement en visite à Rotterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-05T06:35:00.000Z",
-      "timeStampEnd": "2023-10-05T13:25:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par NS International en direction de Berlin, DE"
-    },
-    {
-      "timeStampStart": "2023-10-05T07:45:00.000Z",
-      "timeStampEnd": "2023-10-05T07:58:00.000Z",
-      "title": "Je suis présentement en transfert de train à Amersfoort, NL"
-    },
-    {
-      "timeStampStart": "2023-10-05T13:25:00.000Z",
-      "timeStampEnd": "2023-10-08T07:46:00.000Z",
-      "title": "Je suis présentement en visite à Berlin, DE"
-    },
-    {
-      "timeStampStart": "2023-10-08T07:46:00.000Z",
-      "timeStampEnd": "2023-10-08T11:38:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Deutsche Bahn en direction de Wuppertal, DE"
-    },
-    {
-      "timeStampStart": "2023-10-08T11:38:00.000Z",
-      "timeStampEnd": "2023-10-10T07:40:00.000Z",
-      "title": "Je suis présentement en visite à Wuppertal, DE"
-    },
-    {
-      "timeStampStart": "2023-10-10T07:40:00.000Z",
-      "timeStampEnd": "2023-10-10T08:09:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Deutsche Bahn en direction de Köln (Cologne), DE"
-    },
-    {
-      "timeStampStart": "2023-10-10T08:09:00.000Z",
-      "timeStampEnd": "2023-10-10T10:42:00.000Z",
-      "title": "Je suis présentement en escale à Köln (Cologne), DE"
-    },
-    {
-      "timeStampStart": "2023-10-10T10:42:00.000Z",
-      "timeStampEnd": "2023-10-10T14:06:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction de Paris, FR"
-    },
-    {
-      "timeStampStart": "2023-10-10T14:06:00.000Z",
-      "timeStampEnd": "2023-10-13T12:21:00.000Z",
-      "title": "Je suis présentement en visite à Paris, FR"
-    },
-    {
-      "timeStampStart": "2023-10-13T12:21:00.000Z",
-      "timeStampEnd": "2023-10-13T15:44:00.000Z",
-      "title": "Je suis présentement à bord du train opéré par Eurostar (anciennement Thalys) en direction d'Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-13T15:44:00.000Z",
-      "timeStampEnd": "2023-10-14T12:00:00.000Z",
-      "title": "Je suis présentement en visite à Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-14T12:00:00.000Z",
-      "timeStampEnd": "2023-10-14T19:30:00.000Z",
-      "title": "Je suis présentement à bord du vol AC 901 d'Air Canada à destination de Montréal, CA"
-    },
-    {
-      "timeStampStart": "2023-10-14T22:15:00.000Z",
-      "timeStampEnd": "2023-10-14T23:00:00.000Z",
-      "title": "Je suis présentement en route vers la maison"
-    },
-    {
-      "timeStampStart": "2023-10-14T23:00:00.000Z",
-      "timeStampEnd": "2023-10-15T02:00:00.000Z",
-      "title": "Mon voyage est maintenant terminé, je suis de retour à la maison"
-    },
-    {
-      "timeStampStart": "2023-09-30T08:40:00.000Z",
-      "timeStampEnd": "2023-10-14T12:00:00.000Z",
-      "timeZone": "Europe/Paris",
-      "title": "Il est %time selon l'heure locale"
-    },
-    {
-      "timeStampStart": "2023-09-30T08:40:00.000Z",
-      "timeStampEnd": "2023-10-03T10:36:00.000Z",
-      "city": "Amsterdam, NL",
-      "title": "Météo indisponible pour Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-03T10:36:00.000Z",
-      "timeStampEnd": "2023-10-05T06:35:00.000Z",
-      "city": "Rotterdam, NL",
-      "title": "Météo indisponible pour Rotterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-10-05T06:35:00.000Z",
-      "timeStampEnd": "2023-10-05T13:25:00.000Z",
-      "city": "Amersfoort, NL",
-      "title": "Météo indisponible pour Amersfoort, NL"
-    },
-    {
-      "timeStampStart": "2023-10-05T13:25:00.000Z",
-      "timeStampEnd": "2023-10-08T11:38:00.000Z",
-      "city": "Berlin, DE",
-      "title": "Météo indisponible pour Berlin, DE"
-    },
-    {
-      "timeStampStart": "2023-10-08T11:38:00.000Z",
-      "timeStampEnd": "2023-10-10T07:40:00.000Z",
-      "city": "Wuppertal, DE",
-      "title": "Météo indisponible pour Wuppertal, DE"
-    },
-    {
-      "timeStampStart": "2023-10-10T07:40:00.000Z",
-      "timeStampEnd": "2023-10-10T11:30:00.000Z",
-      "city": "Köln (Cologne), DE",
-      "title": "Météo indisponible pour Köln (Cologne), DE"
-    },
-    {
-      "timeStampStart": "2023-10-10T11:30:00.000Z",
-      "timeStampEnd": "2023-10-10T14:06:00.000Z",
-      "city": "Bruxelles, BE",
-      "title": "Météo indisponible pour Bruxelles, BE"
-    },
-    {
-      "timeStampStart": "2023-10-10T14:06:00.000Z",
-      "timeStampEnd": "2023-10-13T13:00:00.000Z",
-      "city": "Paris, FR",
-      "title": "Météo indisponible pour Paris, FR"
-    },
-    {
-      "timeStampStart": "2023-10-13T13:00:00.000Z",
-      "timeStampEnd": "2023-10-13T15:44:00.000Z",
-      "city": "Bruxelles, BE",
-      "title": "Météo indisponible pour Bruxelles, BE"
-    },
-    {
-      "timeStampStart": "2023-10-13T15:44:00.000Z",
-      "timeStampEnd": "2023-10-14T12:00:00.000Z",
-      "city": "Amsterdam, NL",
-      "title": "Météo indisponible pour Amsterdam, NL"
-    },
-    {
-      "timeStampStart": "2023-09-30T08:40:00.000Z",
-      "timeStampEnd": "2023-10-03T08:30:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel The Social Hub Amsterdam City"
-    },
-    {
-      "timeStampStart": "2023-10-03T08:30:00.000Z",
-      "timeStampEnd": "2023-10-05T05:00:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel The James Hotel Rotterdam"
-    },
-    {
-      "timeStampStart": "2023-10-05T05:00:00.000Z",
-      "timeStampEnd": "2023-10-08T06:00:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel Park Inn par Radisson Berlin Alexanderplatz"
-    },
-    {
-      "timeStampStart": "2023-10-08T06:00:00.000Z",
-      "timeStampEnd": "2023-10-10T06:00:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel B&B Hotel Wuppertal"
-    },
-    {
-      "timeStampStart": "2023-10-10T06:00:00.000Z",
-      "timeStampEnd": "2023-10-13T10:00:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel Le Régent Montmartre par Hiphophostels"
-    },
-    {
-      "timeStampStart": "2023-10-13T10:00:00.000Z",
-      "timeStampEnd": "2023-10-14T08:30:00.000Z",
-      "title": "Ma prochaine nuit sera à l'hôtel nhow Amsterdam RAI"
-    },
-    {
-      "timeStampStart": "2023-10-14T08:30:00.000Z",
-      "timeStampEnd": "2023-10-15T02:00:00.000Z",
-      "title": "Ma prochaine nuit sera à la maison"
-    }
-  ],
   "partners": [
     {
       "id": "nextjs",

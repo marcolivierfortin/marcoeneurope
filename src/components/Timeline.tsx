@@ -3,7 +3,7 @@
 import Day from './Day';
 import Filters from './Filters';
 import React, { Component } from 'react';
-import { EventInterface, SiteInterface } from '../interfaces';
+import { EventInterface, SiteInterface, TripInterface } from '../interfaces';
 import { formatDuration } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
 import { frCA } from 'date-fns/locale';
@@ -23,7 +23,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
       <main className="timeline">
         <div className="summary">
           <p className={ 'events' }>
-            { this.props.site.events.length } { this.props.site.settings.events }
+            { this.props.currentTrip.events.length } { this.props.site.settings.events }
             {/* <button title={ this.props.site.filters.description.shift() }>{ this.props.site.filters.title }</button> */}
           </p>
 
@@ -57,7 +57,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
    * @return {string}
    */
   private getDurationByType(type: string): string {
-    const events = this.props.site.events.filter(event => event.type.search(`${ type }`) === 0);
+    const events = this.props.currentTrip.events.filter(event => event.type.search(`${ type }`) === 0);
 
     if (events.length === 0) {
       return formatDuration({
@@ -95,7 +95,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
    *   The events grouped by days.
    */
   private groupEventsByDays(): EventInterface {
-    return this.props.site.events.sort((first, second) => {
+    return this.props.currentTrip.events.sort((first, second) => {
       // Sort all events by time stamp before grouping them by day.
       return new Date(first.timeStamp).valueOf() - new Date(second.timeStamp).valueOf();
     }).reduce((group, event) => {
@@ -117,6 +117,7 @@ export default class Timeline extends Component<TimelineProps, TimelineState> {
  */
 export interface TimelineProps {
   site: SiteInterface;
+  currentTrip: TripInterface;
 }
 
 /**

@@ -3,13 +3,13 @@ import Site from '../data/site.json';
 import Timeline from '../components/Timeline';
 import striptags from 'striptags';
 import { Metadata, Viewport } from 'next';
-import { SiteInterface } from '../interfaces';
+import { SiteInterface, TripInterface } from '../interfaces';
 
 // noinspection JSUnusedGlobalSymbols
 export const metadata: Metadata = {
   // Site.
   title: Site.title,
-  description: striptags(Site.description[0]),
+  description: striptags(Site.trips[Site.trips.length - 1].description[0]),
 
   // Author.
   authors: {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: Site.title,
     title: Site.title,
-    description: striptags(Site.description[0]),
+    description: striptags(Site.trips[Site.trips.length - 1].description[0]),
     locale: 'fr_CA',
     countryName: 'Canada',
     images: '/images/share.png',
@@ -89,10 +89,13 @@ export const viewport: Viewport = {
 export default function Page(): React.JSX.Element {
   const site: SiteInterface = Site;
 
+  const currentTrip: TripInterface = site.trips[site.trips.length - 1];
+
   return (
     <div className={ 'page' }>
       <Timeline
         site={ site }
+        currentTrip={ currentTrip }
       />
     </div>
   );

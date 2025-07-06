@@ -7,7 +7,7 @@ import Line from '../components/Line';
 import React, { Fragment } from 'react';
 import Script from 'next/script';
 import Site from '../data/site.json';
-import { SiteInterface } from '../interfaces';
+import { SiteInterface, TripInterface } from '../interfaces';
 
 /**
  * Render the site layout.
@@ -16,6 +16,8 @@ import { SiteInterface } from '../interfaces';
  */
 export default function RootLayout({ children }): React.JSX.Element {
   const site: SiteInterface = Site;
+
+  const currentTrip: TripInterface = site.trips[site.trips.length - 1];
 
   return (
     <html>
@@ -39,10 +41,10 @@ export default function RootLayout({ children }): React.JSX.Element {
           <Header
             author={ site.author }
             title={ site.title }
-            description={ site.description }
+            description={ currentTrip.description }
             links={ site.links }
-            contact={ site.contact }
-            events={ site.events }
+            contact={ currentTrip.contact }
+            events={ currentTrip.events }
             countries={ site.countries }
             settings={ site.settings }
           />
@@ -50,7 +52,7 @@ export default function RootLayout({ children }): React.JSX.Element {
           <Line />
 
           <BreakingNews
-            news={ site.news }
+            news={ currentTrip.news }
             settings={ site.settings }
           />
 
