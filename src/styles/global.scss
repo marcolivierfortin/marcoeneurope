@@ -194,6 +194,56 @@ footer {
   }
 }
 
+// Switch.
+.switch {
+  position: relative;
+
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 80px;
+
+  @media (max-width: 799px) {
+    padding: 0 40px;
+  }
+
+  ul {
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      list-style: none;
+
+      button {
+        margin: 0 15px 0 0;
+        padding: 3px 12px;
+
+        border: none;
+        border-radius: 0;
+
+        background: $background-light;
+
+        font-size: 12px;
+
+        &.active {
+          background: $color-light;
+          color: $background-light;
+        }
+      }
+    }
+  }
+}
+
+.body-breaking-news .switch {
+  top: -44px;
+
+  @media (max-width: 799px) {
+    top: 0;
+  }
+}
+
 // Header.
 header {
   max-width: 600px;
