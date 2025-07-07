@@ -1222,6 +1222,470 @@
           "title": "Ma prochaine nuit sera à la maison"
         }
       ]
+    },
+    {
+      "title": "2025",
+      "description": [
+        "Voici mon journal de bord pour suivre l'itinéraire de mes destinations en <strong>Italie</strong>, en <strong>Croatie</strong> et au <strong>Monténégro</strong>.",
+        "Mon départ de Montréal se fera le 5 juillet, je serai à <strong>Venise du 6 au 7 juillet</strong>, à <strong>Ravenne le 7</strong>, à <strong>Zadar le 8</strong>, à <strong>Dubrovnik le 9</strong>, à <strong>Split le 10</strong>, à <strong>Kotor le 11</strong>, à <strong>Messine le 13</strong>, à <strong>Naples le 14</strong>, à <strong>Florence le 16</strong>, à <strong>Pise le 17</strong> et à <strong>Rome du 18 au 19</strong> avant de prendre le chemin du retour."
+      ],
+      "contact": {
+        "title": "Me joindre",
+        "description": [
+          "Pendant mon voyage, je serai joignable par <strong>Messenger</strong> ou bien à mon numéro de téléphone habituel.",
+          "Je vous laisse aussi le numéro de téléphone de mon hôtel : "
+        ]
+      },
+      "events": [
+        {
+          "type": "home",
+          "country": "ca",
+          "timeStamp": "2025-07-05T20:15:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Départ de la maison",
+          "description": [
+            "Départ de la maison en taxi ou en Uber."
+          ],
+          "brand": "stm",
+          "number": "747",
+          "location": "Rue Saint-Hubert",
+          "duration": 45
+        },
+        {
+          "type": "airport",
+          "country": "ca",
+          "timeStamp": "2025-07-05T21:00:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Arrivée à l'aéroport et enregistrement",
+          "description": [],
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
+        },
+        {
+          "type": "flight-start",
+          "country": "ca",
+          "timeStamp": "2025-07-05T23:40:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Décollage du vol vers Venise, IT",
+          "description": [
+            "Mon vol d'aller se fait avec Air Canada en liaison directe. Selon l'historique des vols récents, il a généralement un peu de retard mais rarement plus de 30 minutes."
+          ],
+          "brand": "air-canada",
+          "number": "AC 818",
+          "seat": "",
+          "fleet": "Airbus A330",
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
+          "duration": 480,
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA818/history/20250705/2350Z/CYUL/LIPZ"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=818&t=20250705&o=YUL&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "time-change",
+          "country": "other/earth",
+          "timeStamp": "2025-07-06T03:40:00.000Z",
+          "timeZone": "Atlantic/Azores",
+          "title": "Changement de fuseau horaire",
+          "description": [
+            "Passage au fuseau horaire d'Europe centrale, heure avancée (+ 6 heures).",
+            "Pendant toute la durée de mon voyage, je resterai dans ce fuseau horaire qui couvre tous les pays d'Europe centrale."
+          ],
+          "location": "Océan Atlantique"
+        },
+        {
+          "type": "flight-end",
+          "country": "it",
+          "timeStamp": "2025-07-06T07:40:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Atterrissage du vol à Venise, IT",
+          "description": [],
+          "brand": "air-canada",
+          "number": "AC 818",
+          "fleet": "Airbus A330",
+          "location": "Aéroport de Venise-Marco-Polo (VCE)",
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA818/history/20250705/2350Z/CYUL/LIPZ"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=818&t=20250705&o=YUL&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "eu",
+          "timeStamp": "2025-07-06T08:40:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Passage aux douanes européennes",
+          "description": [
+            "Le passage aux douanes européennes se fait à l'arrivée à Venise et si je ne me trompe pas, il se fera aussi à Rome pour la sortie de l'Europe lors de mon retour vers Montréal dans 2 semaines."
+          ],
+          "location": "Aéroport de Venise-Marco-Polo (VCE)"
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-06T08:40:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Venise, IT",
+          "description": [],
+          "location": "Venise, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Venise"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "it",
+          "timeStamp": "2025-07-06T12:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Enregistrement à l'hôtel de Venise, IT",
+          "description": [
+            "L'hôtel Antony Hotel Venice Airport est situé proximité de l'aéroport de Venise dans la localité de Campalto.",
+            "L'enregistrement peut se faire à partir de 14:00 le jour d'arrivée."
+          ],
+          "location": "Antony Hotel Venice Airport",
+          "phone": "+39 041 542 0022",
+          "links": [
+            {
+              "title": "Voir les coordonnées",
+              "path": "https://www.google.ca/maps/place/Antony+Hotel/@45.487228,12.2966361,17z/data=!4m20!1m10!3m9!1s0x477eb3b8a20af7d5:0xc5017cc74528ca36!2sAntony+Hotel!5m2!4m1!1i2!8m2!3d45.487228!4d12.299211!16s%2Fg%2F11_qd1v9h!3m8!1s0x477eb3b8a20af7d5:0xc5017cc74528ca36!5m2!4m1!1i2!8m2!3d45.487228!4d12.299211!16s%2Fg%2F11_qd1v9h"
+            }
+          ]
+        },
+        {
+          "type": "hotel",
+          "country": "it",
+          "timeStamp": "2025-07-06T19:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Nuit à l'hôtel de Venise, IT",
+          "description": [
+            "Première nuit de mon voyage."
+          ],
+          "location": "Antony Hotel Venice Airport"
+        },
+        {
+          "type": "hotel",
+          "country": "it",
+          "timeStamp": "2025-07-07T08:30:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Départ de l'hôtel de Venise, IT",
+          "description": [
+            "Le départ se fait au plus tard à 11:00 le jour du départ."
+          ],
+          "location": "Antony Hotel Venice Airport"
+        },
+        {
+          "type": "bus",
+          "country": "it",
+          "timeStamp": "2025-07-07T09:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Départ de la navette vers Ravenne",
+          "description": [
+            "Le trajet se fait à bord d'un autobus Celebrity Cruises."
+          ],
+          "location": "Aéroport de Venise-Marco-Polo (VCE)",
+          "duration": 150
+        },
+        {
+          "type": "bus",
+          "country": "it",
+          "timeStamp": "2025-07-07T11:30:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Arrivée de la navette à Ravenne",
+          "description": [],
+          "location": "Port de Ravenne"
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-07T12:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Ravenne, IT",
+          "description": [],
+          "location": "Ravenne, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Ravenne"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "cr",
+          "timeStamp": "2025-07-08T04:00:00.000Z",
+          "timeZone": "Europe/Zagreb",
+          "title": "Aperçu de Zadar, CR",
+          "description": [],
+          "location": "Zadar, CR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Zadar"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "cr",
+          "timeStamp": "2025-07-09T04:00:00.000Z",
+          "timeZone": "Europe/Zagreb",
+          "title": "Aperçu de Dubrovnik, CR",
+          "description": [],
+          "location": "Dubrovnik, CR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Dubrovnik"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "cr",
+          "timeStamp": "2025-07-10T04:00:00.000Z",
+          "timeZone": "Europe/Zagreb",
+          "title": "Aperçu de Split, CR",
+          "description": [],
+          "location": "Split, CR",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Split"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "me",
+          "timeStamp": "2025-07-11T04:00:00.000Z",
+          "timeZone": "Europe/Podgorica",
+          "title": "Aperçu de Kotor, ME",
+          "description": [],
+          "location": "Kotor, ME",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Kotor"
+            }
+          ]
+        },
+        {
+          "type": "cruise",
+          "country": "eu",
+          "timeStamp": "2025-07-12T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Journée en mer",
+          "description": [],
+          "location": "Mer Méditerranée, EU"
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-13T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Messine, IT",
+          "description": [],
+          "location": "Messine, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Messine"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-14T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Naples, IT",
+          "description": [],
+          "location": "Naples, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Naples"
+            }
+          ]
+        },
+        {
+          "type": "cruise",
+          "country": "eu",
+          "timeStamp": "2025-07-15T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Journée en mer",
+          "description": [],
+          "location": "Mer Méditerranée, EU"
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-16T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Florence, IT",
+          "description": [],
+          "location": "Florence, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Florence"
+            }
+          ]
+        },
+        {
+          "type": "cruise",
+          "country": "eu",
+          "timeStamp": "2025-07-17T23:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aucun trajet pendant la nuit",
+          "description": [],
+          "location": "Port de Livourne, IT"
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-17T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Pise, IT",
+          "description": [],
+          "location": "Pise, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Pise"
+            }
+          ]
+        },
+        {
+          "type": "city",
+          "country": "it",
+          "timeStamp": "2025-07-18T04:00:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Aperçu de Rome, IT",
+          "description": [],
+          "location": "Rome, IT",
+          "links": [
+            {
+              "title": "Voir sur Wikipédia",
+              "path": "https://fr.wikipedia.org/wiki/Rome"
+            }
+          ]
+        },
+        {
+          "type": "airport",
+          "country": "it",
+          "timeStamp": "2025-07-18T06:45:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Arrivée à l'aéroport et enregistrement",
+          "description": [],
+          "location": "Aéroport Léonard-de-Vinci de Rome (FCO)"
+        },
+        {
+          "type": "border",
+          "country": "eu",
+          "timeStamp": "2025-07-18T08:45:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Passage aux douanes européennes",
+          "description": [
+            "Normalement, si je ne me trompe pas, on doit passer les douanes européennes pour sortir du territoire européen. Je devrai donc passer les douanes juste avant de prendre mon vol de retour."
+          ],
+          "location": "Aéroport Léonard-de-Vinci de Rome (FCO)"
+        },
+        {
+          "type": "flight-start",
+          "country": "it",
+          "timeStamp": "2025-07-18T09:45:00.000Z",
+          "timeZone": "Europe/Rome",
+          "title": "Décollage du vol vers Montréal, CA",
+          "description": [
+            "Mon vol de retour se fait aussi avec Air Canada en liaison directe. Selon l'historique des vols récents, il a généralement entre 30 minutes à 1 heure de retard."
+          ],
+          "brand": "air-canada",
+          "number": "AC 893",
+          "seat": "",
+          "fleet": "Boeing 777",
+          "location": "Aéroport Léonard-de-Vinci de Rome (FCO)",
+          "duration": 545,
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA893/history/20250719/0940Z/LIRF/CYUL"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=893&t=20250718&o=FCO&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "time-change",
+          "country": "other/earth",
+          "timeStamp": "2025-07-18T14:15:00.000Z",
+          "timeZone": "Atlantic/Azores",
+          "title": "Changement de fuseau horaire",
+          "description": [
+            "Passage au fuseau horaire de l'Est, heure avancée (- 6 heures)."
+          ],
+          "location": "Océan Atlantique"
+        },
+        {
+          "type": "flight-end",
+          "country": "ca",
+          "timeStamp": "2025-07-18T18:50:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Atterrissage du vol à Montréal, CA",
+          "description": [],
+          "brand": "air-canada",
+          "number": "AC 893",
+          "fleet": "Boeing 777",
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)",
+          "links": [
+            {
+              "title": "Suivre sur FlightAware",
+              "path": "https://www.flightaware.com/live/flight/ACA893/history/20250719/0940Z/LIRF/CYUL"
+            },
+            {
+              "title": "Site d'Air Canada",
+              "path": "https://www.aircanada.com/flifo/flight-details?f=893&t=20250718&o=FCO&c=AC&l=fr"
+            }
+          ]
+        },
+        {
+          "type": "border",
+          "country": "ca",
+          "timeStamp": "2025-07-18T20:20:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Passage aux douanes canadiennes",
+          "description": [],
+          "location": "Aéroport Pierre-Elliott-Trudeau (YUL)"
+        },
+        {
+          "type": "home",
+          "country": "ca",
+          "timeStamp": "2025-07-18T21:35:00.000Z",
+          "timeZone": "America/Montreal",
+          "title": "Retour à la maison",
+          "description": [
+            "Retour à la maison en taxi ou en Uber."
+          ],
+          "location": "Rue Saint-Hubert"
+        }
+      ],
+      "news": []
     }
   ],
   "links": [
@@ -1298,6 +1762,18 @@
     {
       "id": "fr",
       "title": "France"
+    },
+    {
+      "id": "it",
+      "title": "Italie"
+    },
+    {
+      "id": "cr",
+      "title": "Croatie"
+    },
+    {
+      "id": "me",
+      "title": "Monténégro"
     }
   ],
   "brands": [
