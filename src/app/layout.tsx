@@ -7,7 +7,32 @@ import Line from '../components/Line';
 import React, { Fragment } from 'react';
 import Script from 'next/script';
 import Site from '../data/site.json';
+import { Roboto, Roboto_Slab } from 'next/font/google';
 import { SiteInterface, TripInterface } from '../interfaces';
+
+// Google Fonts.
+const robotoSlab = Roboto_Slab({
+  style: [
+    'normal',
+  ],
+  weight: [
+    '700',
+  ],
+  display: 'swap',
+});
+
+// Google Fonts.
+const roboto = Roboto({
+  style: [
+    'normal',
+    'italic',
+  ],
+  weight: [
+    '300',
+    '500',
+  ],
+  display: 'swap',
+});
 
 /**
  * Render the site layout.
@@ -22,6 +47,7 @@ export default function RootLayout({ children }): React.JSX.Element {
   return (
     <html>
       <body>
+        <span className={roboto.className + ' ' + robotoSlab.className}></span>
 
         { process.env.GOOGLE_TAG && (
           <Fragment>

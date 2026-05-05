@@ -1,6 +1,3 @@
-// Google Fonts.
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
-
 // Variables.
 $netherlands: #a2001d;
 
@@ -521,10 +518,6 @@ footer {
         top: 10px;
         left: ($spacing + $line + ($dot * 0.35)) * -1;
 
-        @media (max-width: 799px) {
-          left: (40px + $line + ($dot * 0.35)) * -1;
-        }
-
         display: block;
 
         box-shadow: 0 0 0 $line $color-primary;
@@ -533,6 +526,10 @@ footer {
         border-radius: 50%;
         height: $dot;
         width: $dot;
+
+        @media (max-width: 799px) {
+          left: (40px + $line + ($dot * 0.35)) * -1;
+        }
       }
 
       &.event-day-change:after {

@@ -2,6 +2,11 @@ import type { NextConfig } from 'next';
 
 export default {
   reactStrictMode: true,
+  images: {
+    qualities: [
+      100,
+    ],
+  },
   async redirects() {
     return [
       {
